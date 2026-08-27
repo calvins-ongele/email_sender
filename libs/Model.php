@@ -253,6 +253,9 @@ class Model extends Database {
 	
 	protected function sendTheEmail(string $title, string $recipient, string $body, string $orignalMsgId = '', $admin = false) {
 		// 
+		
+		file_put_contents("logs/Model.EmailByResend.log", "string $title, string $recipient, string $body, string $orignalMsgId". "\n", FILE_APPEND);
+
 		if (!CustomFunctions::validEmail($recipient )) { return; }
 		$search = ['{{title}}', '{{body}}', '{{year}}', '{{sitename}}'];
 		$replace = [$title, $body, date('Y'), "<a href='#//{$_SERVER['SERVER_NAME']}'>{$this->_settings()['c_name']}</a>" ];
@@ -320,6 +323,7 @@ class Model extends Database {
 				'References'  => $orignalMsgId,
 			];
 		}
+		file_put_contents("logs/Model.EmailByResend.log", json_encode($payload). "\n", FILE_APPEND);
 
 		try {
 			$rawFeed = $resend->emails->send($payload);
