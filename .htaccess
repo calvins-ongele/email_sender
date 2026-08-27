@@ -1,0 +1,30 @@
+# RewriteEngine On
+# RewriteCond %{HTTPS} !on 
+# RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$ 
+# RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$ 
+# RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+
+#php_flag display_errors on
+#php_value error_reporting 9999
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule ^(.+)$ index.php?url_complex=$1 [QSA,L]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php81” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php81___lsphp .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
+
+# the following prevents display of the named file
+<files config.php>
+order allow,deny
+deny from all
+</files>
+ 

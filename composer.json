@@ -1,0 +1,8 @@
+{
+    "require": {
+        "dompdf/dompdf": "^3.1",
+        "vlucas/phpdotenv": "^5.7",
+        "resend/resend-php": "^1.11",
+        "phpmailer/phpmailer": "^7.1"
+    }
+}

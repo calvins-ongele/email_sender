@@ -1,0 +1,14 @@
+ .feedback-box {  margin-top: 10px; font-size: 0.9em; } 
+.feedback-box .success { color: green; } 
+.feedback-box .error { color: red; }
+.btn_blend {
+    background:var(--primary)!important;
+}
+.editBtn {
+    background:black;
+    color:red;
+    font-size:12px;
+    border:1px solid var(--primary);
+    padding:4px;
+    border-radius:4px;
+}

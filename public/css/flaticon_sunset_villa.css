@@ -1,0 +1,97 @@
+/*!
+*    ______ _       _   _
+*    |  ____| |     | | (_)
+*    | |__  | | __ _| |_ _  ___ ___  _ __
+*    |  __| | |/ _` | __| |/ __/ _ \| '_ \
+*    | |    | | (_| | |_| | (_| (_) | | | |
+*    |_|    |_|\__,_|\__|_|\___\___/|_| |_|
+*
+*         https://www.flaticon.com
+*/
+
+@font-face {
+    font-family: "flaticon_sunset_villa";
+    src: url("./flaticon_sunset_villa.woff2?8376fa8391e91aa276ebe371360d3a05") format("woff2"),
+url("/public/fonts/flaticon_sunset_villa.woff?8376fa8391e91aa276ebe371360d3a05") format("woff"),
+url("/public/fonts/flaticon_sunset_villa.eot?8376fa8391e91aa276ebe371360d3a05#iefix") format("embedded-opentype"),
+url("/public/fonts/flaticon_sunset_villa.ttf?8376fa8391e91aa276ebe371360d3a05") format("truetype"),
+url("/public/fonts/flaticon_sunset_villa.svg?8376fa8391e91aa276ebe371360d3a05#flaticon_sunset_villa") format("svg")
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_sunset_villa !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-deal:before {
+    content: "\f101";
+}
+.flaticon-hallway:before {
+    content: "\f102";
+}
+.flaticon-gain:before {
+    content: "\f103";
+}
+.flaticon-quality:before {
+    content: "\f104";
+}
+.flaticon-trust:before {
+    content: "\f105";
+}
+.flaticon-customer-support:before {
+    content: "\f106";
+}
+.flaticon-salary:before {
+    content: "\f107";
+}
+.flaticon-home:before {
+    content: "\f108";
+}
+.flaticon-bed:before {
+    content: "\f109";
+}
+.flaticon-bathroom:before {
+    content: "\f10a";
+}
+.flaticon-bracket:before {
+    content: "\f10b";
+}
+.flaticon-tenant:before {
+    content: "\f10c";
+}
+.flaticon-house:before {
+    content: "\f10d";
+}
+.flaticon-talk:before {
+    content: "\f10e";
+}
+.flaticon-deal-1:before {
+    content: "\f10f";
+}
+.flaticon-key:before {
+    content: "\f110";
+}
+.flaticon-living-room:before {
+    content: "\f111";
+}
+.flaticon-kitchen:before {
+    content: "\f112";
+}
+.flaticon-stationery:before {
+    content: "\f113";
+}
+.flaticon-school:before {
+    content: "\f114";
+}
+.flaticon-calendar:before {
+    content: "\f115";
+}
+.flaticon-user:before {
+    content: "\f116";
+}
