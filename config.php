@@ -1,13 +1,13 @@
 <?php 
 
 // define a default path constant
-define('PATH', getenv('DOCUMENT_ROOT') . '/email_system/libs/');
+define('PATH', getenv('DOCUMENT_ROOT') . '/libs/');
 define('ROOT', getenv('DOCUMENT_ROOT') . '/'); 
  $rui = explode('/',$_SERVER['REQUEST_URI'] )[1] ?? 'dashboard';
  $rui = explode('?',$rui)[0];      
         
 //define('DASHBOARD', getenv('DOCUMENT_ROOT') . '/views/dashboard/');
-define('ADMIN', getenv('DOCUMENT_ROOT') . "/email_system/views/{$rui}/");
+define('ADMIN', getenv('DOCUMENT_ROOT') . "/views/{$rui}/");
 define("DASHBOARD", ADMIN);
 define('PROFILE_NAV', "{$rui}" );
 

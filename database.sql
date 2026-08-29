@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 27, 2026 at 02:32 PM
+-- Generation Time: Aug 29, 2026 at 05:50 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -20,6 +20,19 @@ SET time_zone = "+00:00";
 --
 -- Database: `email_sender`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `account_numbers`
+--
+
+CREATE TABLE `account_numbers` (
+  `id` int(11) NOT NULL,
+  `email` varchar(100) DEFAULT NULL,
+  `account_number` varchar(100) DEFAULT NULL,
+  `created_at` datetime DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
 
@@ -52,7 +65,7 @@ CREATE TABLE `company` (
 --
 
 INSERT INTO `company` (`c_ID`, `c_name`, `c_short_desc`, `c_description`, `c_logo`, `c_tel`, `c_email`, `c_year_established`, `c_icon`, `c_smtp_server`, `c_send_from_password`, `c_send_from`, `c_primary_color`, `user_loop_sequence`, `enable_maintenance_mode`, `c_address`, `c_smtp_port`) VALUES
-(1, 'Cashier Office', 'The Simpler, Safer way to pay and get paid', '', 'Screenshot_6-removebg-preview.png', '+254700000000', 'cashiers@mnsus.net', 2023, 'icon.jpg', 'mail.mnsus.net', 'Mnsu@2022', 'cashiers@mnsus.net', '#3cb043', 24, 0, NULL, NULL);
+(1, 'Cashier Office', 'The Simpler, Safer way to pay and get paid', '', 'Screenshot_6-removebg-preview.png', '+254700000000', 'cashiers@xyz.net', 2023, 'icon.jpg', 'mail.zyz.net', 'Mnsu@zyz', 'cashiers@xyz.net', '#3cb043', 24, 0, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -72,8 +85,8 @@ CREATE TABLE `email_logs` (
 --
 
 INSERT INTO `email_logs` (`el_ID`, `recipient`, `status`, `message`) VALUES
-(53, 'calvinsongele@gmail.com', 'success', ''),
-(54, 'calvinsongele@gmail.com', 'success', '');
+(53, 'x@gmail.com', 'success', ''),
+(54, 'x@gmail.com', 'success', '');
 
 -- --------------------------------------------------------
 
@@ -146,11 +159,17 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_ID`, `user_fname`, `user_email`, `user_tel`, `user_pass`, `user_status`, `user_kyc_compliant`, `user_role`, `user_dp`, `user_dob`, `user_gender`, `user_ID_number`, `user_ID_passport`, `user_country`, `user_town`, `user_address`, `user_postal_address`, `user_taxpin`, `user_datecreated`, `user_tokens`, `user_token_currency`, `user_auth_token`, `user_auth_expiry`, `user_loan_limit`, `user_last_login`, `user_dateupdated`, `user_url`, `user_key`, `user_key_web`, `user_pin`, `user_aff_code`, `user_ref_by`, `user_aff_status`, `user_boost_package`, `user_tel_verified`, `user_email_verified`, `user_phone_xtra`, `user_hold_status`, `uuid`, `login_id`, `login_id_updated_at`, `user_about`, `user_avg_rating`) VALUES
-(1, 'CA  ', 'admin@gmail.com', '254700000000', '$2y$10$nN8cdOfgCSgvNXMemOhqtuqh6dXoyqJhPPtPQA/upwKgpDi54XB8W', 'Active', 'yes', 'Admin', 'user_dp_pMBA8GmJHvXSZZgvtInG806507.jpeg', '2023-02-24T00:00:00.000', 'M', NULL, 'user_ID_passport_VuhwWjnAHGl3ZYJLKe7b441288.jpeg', 'Kenya', 'Nairobi', 'Nairobi County', '00', '', '1693699200', '-1', 'KES', NULL, NULL, 0, '1786347685', NULL, 'MdgD6LDSQiqWDMQazw2QSbw8B0YWb9', '45CmD1EYwABrdXzAMbTipJW91e9NyAEzYdbunLhF', 'XkSzWktPUzyeSsmU83GlQJ8Bs8H8k30MPFGUYOZa', '$2y$10$dvtfC0MGHoGUdwcKVPzfCuLEknN85X02nRSKeUnD.uLaCOQ0cMEpq', 'AMB-1', NULL, 'False', 0, 1, 1, NULL, 0, 'c3a126f0-8a6f-11f1-8196-08f1ea8e3e80', 'F8iE810V27yO8ocLsHsqFhLsrE1c5C', '1785239263', NULL, NULL);
+(1, 'CA  ', 'x@gmail.com', '254700000000', '$2y$10$nN8cdOfgCSgvNXMemOhqtuqh6dXoyqJhPPtPQA/upwKgpDi54XB8W', 'Active', 'yes', 'Admin', 'user_dp_pMBA8GmJHvXSZZgvtInG806507.jpeg', '2023-02-24T00:00:00.000', 'M', NULL, 'user_ID_passport_VuhwWjnAHGl3ZYJLKe7b441288.jpeg', 'Kenya', 'Nairobi', 'Nairobi County', '00', '', '1693699200', '-1', 'KES', NULL, NULL, 0, '1786347685', NULL, 'MdgD6LDSQiqWDMQazw2QSbw8B0YWb9', '45CmD1EYwABrdXzAMbTipJW91e9NyAEzYdbunLhF', 'XkSzWktPUzyeSsmU83GlQJ8Bs8H8k30MPFGUYOZa', '$2y$10$dvtfC0MGHoGUdwcKVPzfCuLEknN85X02nRSKeUnD.uLaCOQ0cMEpq', 'AMB-1', NULL, 'False', 0, 1, 1, NULL, 0, 'c3a126f0-8a6f-11f1-8196-08f1ea8e3e80', 'F8iE810V27yO8ocLsHsqFhLsrE1c5C', '1785239263', NULL, NULL);
 
 --
 -- Indexes for dumped tables
 --
+
+--
+-- Indexes for table `account_numbers`
+--
+ALTER TABLE `account_numbers`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `company`
@@ -180,6 +199,12 @@ ALTER TABLE `users`
 --
 -- AUTO_INCREMENT for dumped tables
 --
+
+--
+-- AUTO_INCREMENT for table `account_numbers`
+--
+ALTER TABLE `account_numbers`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `company`
