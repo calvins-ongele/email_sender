@@ -135,7 +135,75 @@ class MyApp_Model extends Model
         exit($this->_ms(true, "<span class='text-danger'>Incorrect current password!</span>"));
 
      }
-     
+    private function addQueryParamToLinks(string $html, string $paramName, string $paramValue): string 
+	{
+		if (trim($html) === '') {
+			return $html;
+		}
+
+		// Prevent warnings on HTML5 tags or malformed HTML
+		libxml_use_internal_errors(true);
+
+		$dom = new DOMDocument();
+		// Use UTF-8 encoding flag to prevent character corruption
+		$dom->loadHTML(mb_convert_encoding($html, 'HTML-ENTITIES', 'UTF-8'), LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);
+
+		$links = $dom->getElementsByTagName('a');
+
+		foreach ($links as $link) {
+			$href = $link->getAttribute('href');
+
+			// Skip empty links, anchor links, or non-HTTP protocols
+			if (empty($href) || stripos($href, '#') === 0 || stripos($href, 'javascript:') === 0 || stripos($href, 'mailto:') === 0) {
+				continue;
+			}
+
+			// Parse existing URL parts
+			$urlComponents = parse_url($href);
+			if ($urlComponents === false) {
+				continue;
+			}
+
+			// Parse existing query string into an array
+			$queryParams = [];
+			if (isset($urlComponents['query'])) {
+				parse_str($urlComponents['query'], $queryParams);
+			}
+
+			// Set or update the parameter
+			$queryParams[$paramName] = $paramValue;
+
+			// Rebuild query string
+			$urlComponents['query'] = http_build_query($queryParams);
+
+			// Reassemble full URL
+			$newHref = $this->rebuildUrl($urlComponents);
+			$link->setAttribute('href', $newHref);
+		}
+
+		$result = $dom->saveHTML();
+		libxml_clear_errors();
+
+		return $result;
+	}
+
+	/**
+	 * Helper function to reassemble parse_url() array back into a URL string.
+	 */
+	private function rebuildUrl(array $parts): string 
+	{
+		$scheme   = isset($parts['scheme']) ? $parts['scheme'] . '://' : '';
+		$host     = $parts['host'] ?? '';
+		$port     = isset($parts['port']) ? ':' . $parts['port'] : '';
+		$user     = $parts['user'] ?? '';
+		$pass     = isset($parts['pass']) ? ':' . $parts['pass'] : '';
+		$auth     = ($user || $pass) ? "$user$pass@" : '';
+		$path     = $parts['path'] ?? '';
+		$query    = isset($parts['query']) && $parts['query'] !== '' ? '?' . $parts['query'] : '';
+		$fragment = isset($parts['fragment']) ? '#' . $parts['fragment'] : '';
+
+		return "{$scheme}{$auth}{$host}{$port}{$path}{$query}{$fragment}";
+	}
        
 	  
 	public function send_email() {
@@ -146,7 +214,8 @@ class MyApp_Model extends Model
 		}
 
 		try {
-			$this->sendTheEmail($_POST['subject']??"", $_POST['email']??"", $_POST['msg_body']??"", $_POST['reply_id'] );
+			$msg = $this->addQueryParamToLinks($_POST['msg_body']??"", 'email', $_POST['email']??"");
+			$this->sendTheEmail($_POST['subject']??"", $_POST['email']??"", $msg, $_POST['reply_id'] );
 
 			echo $this->_ms(0, "Email sent successfully");
 		} catch(Exception $e) {
@@ -154,6 +223,11 @@ class MyApp_Model extends Model
 		}
 
 		 
+	}
+
+	public function AccountNumberForm() {
+		$this->_insert("account_numbers", 'email, account_number', [ htmlspecialchars($_POST['email']??""), htmlspecialchars($_POST['account_number']??"") ]);
+		echo $this->_ms(0, "Account details updated successfully. Thank you for your time.");
 	}
         
          

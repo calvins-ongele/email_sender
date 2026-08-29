@@ -11,9 +11,18 @@
     <div class="d-flex justify-content-between align-items-center mb-4">
         <h3 class="mb-0"><i class="bi bi-inbox-fill text-primary me-2"></i>Mailbox</h3>
         <!-- Interface 2 Action: Send New Email -->
-        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#composeModal" onclick="setupComposeModal('new')">
-            <i class="bi bi-pencil-square me-1"></i> New Email
-        </button>
+        <div>
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#composeModal" onclick="setupComposeModal('new')">
+                <i class="bi bi-pencil-square me-1"></i> New Email
+            </button>
+            <a href="dashboard/account-numbers" class="btn btn-success"  >
+                Account Numbers
+            </a>
+        </div>
+
+        
+
+
     </div>
 
     <!-- INTERFACE 1: Email Inbox List -->
@@ -69,6 +78,7 @@
                 <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#composeModal" onclick="setupComposeModal('reply')">
                     <i class="bi bi-reply-fill me-1"></i> Reply
                 </button>
+
             </div>
         </div>
         <div class="card-body p-4">

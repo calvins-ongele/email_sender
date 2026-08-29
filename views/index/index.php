@@ -22,2400 +22,1056 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
- 
-<link rel="canonical" href="https://sctcc.edu/degrees-programs/architectural-construction-technology" />
-<link rel="image_src" href="https://sctcc.edu/sites/default/files/styles/metatag_image/public/uploads/img/2023-04/ArchitecturalConstruction_2022-20.jpg.webp?h=8050abc0&amp;itok=8iNolgis" />
-<meta property="og:site_name" content="St. Cloud Technical and Community College" />
-<meta property="og:type" content="Program" />
-<meta property="og:url" content="https://sctcc.edu/degrees-programs/architectural-construction-technology" />
-<meta property="og:title" content="Architectural Construction Technology | St. Cloud Technical and Community College" />
-<meta property="og:image" content="https://sctcc.edu/sites/default/files/styles/metatag_image/public/uploads/img/2023-04/ArchitecturalConstruction_2022-20.jpg.webp?h=8050abc0&amp;itok=8iNolgis" />
-<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
-<meta name="MobileOptimized" content="width" />
-<meta name="HandheldFriendly" content="true" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="icon" href="https://sctcc.edu/themes/sctcc/favicon.ico" type="image/vnd.microsoft.icon" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
+    <title>Home | Minnesota State University, Mankato</title>
+    <link rel="preconnect" href="https://use.typekit.net">
+    <link rel="stylesheet" href="https://use.typekit.net/lkn1dpa.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://www.mnsu.edu/maverick/css/main.css?v=M8BB8UpDGh9_rlJ51p1aKauDLiGVT7035VdhLvwp1GQ" rel="stylesheet" />
+    
+        <link rel="canonical" href="https://www.mnsu.edu/" />
+        <meta name="description" content="Your big ideas can become reality at Minnesota State Mankato, where you will find comprehensive support services, a wide variety of majors to explore and opportunities to excel in and out of the classroom.">
+    <meta property="og:title" content="Home" />
+        <meta property="og:description" content="Your big ideas can become reality at Minnesota State Mankato, where you will find comprehensive support services, a wide variety of majors to explore and opportunities to excel in and out of the classroom." />
+    <meta property="og:url" content="https://www.mnsu.edu/" />
 
-    <title>Architectural Construction Technology | St. Cloud Technical and Community College</title>
-    <link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/stable/css/system/components/align.module.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/stable/css/system/components/fieldgroup.module.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/stable/css/system/components/container-inline.module.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/stable/css/system/components/clearfix.module.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/stable/css/system/components/details.module.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/stable/css/system/components/hidden.module.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/stable/css/system/components/item-list.module.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/stable/css/system/components/js.module.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/stable/css/system/components/nowrap.module.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/stable/css/system/components/position-container.module.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/stable/css/system/components/reset-appearance.module.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/stable/css/system/components/resize.module.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/stable/css/system/components/system-status-counter.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/stable/css/system/components/system-status-report-counters.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/stable/css/system/components/system-status-report-general-info.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/stable/css/system/components/tablesort.module.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/stable/css/filter/filter.caption.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/stable/css/media/filter.caption.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/stable/css/media/oembed.formatter.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/stable/css/views/views.module.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/modules/contrib/ckeditor_indentblock/css/plugins/indentblock/ckeditor.indentblock.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/modules/contrib/paragraphs/css/paragraphs.unpublished.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/modules/contrib/sitewide_alert/css/sitewide_alert.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/stable/css/core/assets/vendor/normalize-css/normalize.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/stable/css/core/normalize-fixes.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/classy/css/components/action-links.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/classy/css/components/breadcrumb.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/classy/css/components/button.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/classy/css/components/collapse-processed.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/classy/css/components/container-inline.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/classy/css/components/details.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/classy/css/components/exposed-filters.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/classy/css/components/field.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/classy/css/components/form.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/classy/css/components/icons.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/classy/css/components/inline-form.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/classy/css/components/item-list.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/classy/css/components/link.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/classy/css/components/links.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/classy/css/components/menu.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/classy/css/components/more-link.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/classy/css/components/pager.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/classy/css/components/tabledrag.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/classy/css/components/tableselect.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/classy/css/components/tablesort.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/classy/css/components/tabs.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/classy/css/components/textarea.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/classy/css/components/ui-dialog.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/classy/css/components/messages.css?tjz698" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/contrib/classy/css/components/node.css?tjz698" />
-<link rel="stylesheet" media="all" href="//use.typekit.net/mpl3rqi.css" />
-<link rel="stylesheet" media="all" href="https://sctcc.edu/themes/sctcc/css/main.css?tjz698" />
-<link rel="stylesheet" media="all" href="//cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    
+    
+    <!-- Apple Touch Icons for iOS -->
+    <link rel="apple-touch-icon" href="https://www.mnsu.edu/maverick/images/touch-icons/apple-touch-icon.png" />
+    <link rel="apple-touch-icon-precomposed" href="https://www.mnsu.edu/maverick/images/touch-icons/apple-touch-icon-precomposed.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="https://www.mnsu.edu/maverick/images/touch-icons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://www.mnsu.edu/maverick/images/touch-icons/apple-touch-icon-57x57-precomposed.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="https://www.mnsu.edu/maverick/images/touch-icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.mnsu.edu/maverick/images/touch-icons/apple-touch-icon-72x72-precomposed.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="https://www.mnsu.edu/maverick/images/touch-icons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.mnsu.edu/maverick/images/touch-icons/apple-touch-icon-114x114-precomposed.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="https://www.mnsu.edu/maverick/images/touch-icons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://www.mnsu.edu/maverick/images/touch-icons/apple-touch-icon-120x120-precomposed.png" />
+    <link rel="apple-touch-icon" sizes="128x128" href="https://www.mnsu.edu/maverick/images/touch-icons/apple-touch-icon-128x128.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="128x128" href="https://www.mnsu.edu/maverick/images/touch-icons/apple-touch-icon-128x128-precomposed.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="https://www.mnsu.edu/maverick/images/touch-icons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.mnsu.edu/maverick/images/touch-icons/apple-touch-icon-144x144-precomposed.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="https://www.mnsu.edu/maverick/images/touch-icons/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://www.mnsu.edu/maverick/images/touch-icons/apple-touch-icon-152x152-precomposed.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.mnsu.edu/maverick/images/touch-icons/apple-touch-icon-180x180.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://www.mnsu.edu/maverick/images/touch-icons/apple-touch-icon-180x180-precomposed.png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="https://www.mnsu.edu/maverick/images/touch-icons/apple-touch-icon-192x192.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="192x192" href="https://www.mnsu.edu/maverick/images/touch-icons/apple-touch-icon-192x192-precomposed.png" />
+    
+    <!-- Android Devices High Resolution -->
+    <link rel="icon" sizes="192x192" href="https://www.mnsu.edu/maverick/images/touch-icons/icon-192.png">
+    <!-- Android Devices Normal Resolution -->
+    <link rel="icon" sizes="128x128" href="https://www.mnsu.edu/maverick/images/touch-icons/icon-128.png">
+    
+    <!-- Standard Favicons -->
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.mnsu.edu/maverick/images/touch-icons/icon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.mnsu.edu/maverick/images/touch-icons/icon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="https://www.mnsu.edu/maverick/images/touch-icons/icon-48x48.png">
 
-       
+    <!-- Favicon for browsers -->
+    <link rel="icon" href="https://www.mnsu.edu/static/images/favicon.png" type="image/x-icon">
+    
+    <script>
+!function(T,l,y){var S=T.location,k="script",D="instrumentationKey",C="ingestionendpoint",I="disableExceptionTracking",E="ai.device.",b="toLowerCase",w="crossOrigin",N="POST",e="appInsightsSDK",t=y.name||"appInsights";(y.name||T[e])&&(T[e]=t);var n=T[t]||function(d){var g=!1,f=!1,m={initialize:!0,queue:[],sv:"5",version:2,config:d};function v(e,t){var n={},a="Browser";return n[E+"id"]=a[b](),n[E+"type"]=a,n["ai.operation.name"]=S&&S.pathname||"_unknown_",n["ai.internal.sdkVersion"]="javascript:snippet_"+(m.sv||m.version),{time:function(){var e=new Date;function t(e){var t=""+e;return 1===t.length&&(t="0"+t),t}return e.getUTCFullYear()+"-"+t(1+e.getUTCMonth())+"-"+t(e.getUTCDate())+"T"+t(e.getUTCHours())+":"+t(e.getUTCMinutes())+":"+t(e.getUTCSeconds())+"."+((e.getUTCMilliseconds()/1e3).toFixed(3)+"").slice(2,5)+"Z"}(),iKey:e,name:"Microsoft.ApplicationInsights."+e.replace(/-/g,"")+"."+t,sampleRate:100,tags:n,data:{baseData:{ver:2}}}}var h=d.url||y.src;if(h){function a(e){var t,n,a,i,r,o,s,c,u,p,l;g=!0,m.queue=[],f||(f=!0,t=h,s=function(){var e={},t=d.connectionString;if(t)for(var n=t.split(";"),a=0;a<n.length;a++){var i=n[a].split("=");2===i.length&&(e[i[0][b]()]=i[1])}if(!e[C]){var r=e.endpointsuffix,o=r?e.location:null;e[C]="https://"+(o?o+".":"")+"dc."+(r||"services.visualstudio.com")}return e}(),c=s[D]||d[D]||"",u=s[C],p=u?u+"/v2/track":d.endpointUrl,(l=[]).push((n="SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)",a=t,i=p,(o=(r=v(c,"Exception")).data).baseType="ExceptionData",o.baseData.exceptions=[{typeName:"SDKLoadFailed",message:n.replace(/\./g,"-"),hasFullStack:!1,stack:n+"\nSnippet failed to load ["+a+"] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: "+(S&&S.pathname||"_unknown_")+"\nEndpoint: "+i,parsedStack:[]}],r)),l.push(function(e,t,n,a){var i=v(c,"Message"),r=i.data;r.baseType="MessageData";var o=r.baseData;return o.message='AI (Internal): 99 message:"'+("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) ("+n+")").replace(/\"/g,"")+'"',o.properties={endpoint:a},i}(0,0,t,p)),function(e,t){if(JSON){var n=T.fetch;if(n&&!y.useXhr)n(t,{method:N,body:JSON.stringify(e),mode:"cors"});else if(XMLHttpRequest){var a=new XMLHttpRequest;a.open(N,t),a.setRequestHeader("Content-type","application/json"),a.send(JSON.stringify(e))}}}(l,p))}function i(e,t){f||setTimeout(function(){!t&&m.core||a()},500)}var e=function(){var n=l.createElement(k);n.src=h;var e=y[w];return!e&&""!==e||"undefined"==n[w]||(n[w]=e),n.onload=i,n.onerror=a,n.onreadystatechange=function(e,t){"loaded"!==n.readyState&&"complete"!==n.readyState||i(0,t)},n}();y.ld<0?l.getElementsByTagName("head")[0].appendChild(e):setTimeout(function(){l.getElementsByTagName(k)[0].parentNode.appendChild(e)},y.ld||0)}try{m.cookie=l.cookie}catch(p){}function t(e){for(;e.length;)!function(t){m[t]=function(){var e=arguments;g||m.queue.push(function(){m[t].apply(m,e)})}}(e.pop())}var n="track",r="TrackPage",o="TrackEvent";t([n+"Event",n+"PageView",n+"Exception",n+"Trace",n+"DependencyData",n+"Metric",n+"PageViewPerformance","start"+r,"stop"+r,"start"+o,"stop"+o,"addTelemetryInitializer","setAuthenticatedUserContext","clearAuthenticatedUserContext","flush"]),m.SeverityLevel={Verbose:0,Information:1,Warning:2,Error:3,Critical:4};var s=(d.extensionConfig||{}).ApplicationInsightsAnalytics||{};if(!0!==d[I]&&!0!==s[I]){var c="onerror";t(["_"+c]);var u=T[c];T[c]=function(e,t,n,a,i){var r=u&&u(e,t,n,a,i);return!0!==r&&m["_"+c]({message:e,url:t,lineNumber:n,columnNumber:a,error:i}),r},d.autoExceptionInstrumented=!0}return m}(y.cfg);function a(){y.onInit&&y.onInit(n)}(T[t]=n).queue&&0===n.queue.length?(n.queue.push(a),n.trackPageView({})):a()}(window,document,{src: "https://js.monitor.azure.com/scripts/b/ai.2.gbl.min.js", crossOrigin: "anonymous", cfg: {connectionString: 'InstrumentationKey=9ba54e4d-1029-49bf-8d5c-6f56cce27744;IngestionEndpoint=https://centralus-2.in.applicationinsights.azure.com/;LiveEndpoint=https://centralus.livediagnostics.monitor.azure.com/;ApplicationId=d9746a5b-43a2-4913-afba-205c08634979', disableCookiesUsage: false }});
+</script>
+
+    
+<script id="siteAlertJS">
+	var root=document.getElementsByTagName("html")[0];function getScrollbarWidth(){var e=document.createElement("div");e.style.visibility="hidden",e.style.overflow="scroll",document.body.appendChild(e);var t=document.createElement("div");e.appendChild(t);var o=e.offsetWidth-t.offsetWidth;return e.parentNode.removeChild(e),o+"px"}function waitForElExistence(e){return new Promise((t=>{if(document.querySelector(e))return t(document.querySelector(e));const o=new MutationObserver((n=>{document.querySelector(e)&&(t(document.querySelector(e)),o.disconnect())}));o.observe(document.body,{childList:!0,subtree:!0})}))}function setCookie(e,t,o){let n=new Date;n.setTime(n.getTime()+24*o*60*60*1e3);const r="expires="+n.toUTCString();document.cookie=e+"="+t+"; "+r+"; path=/"}function getCookie(e){const t=e+"=",o=document.cookie.split(";");for(let e=0;e<o.length;e++){let n=o[e];for(;" "===n.charAt(0);)n=n.substring(1,n.length);if(0===n.indexOf(t))return n.substring(t.length,n.length)}return null}function toggleDomLocation(e,t,o,n){const r=document.querySelector(e),i=document.querySelector(t),s=document.querySelector(o);if(r&&i&&s){l(r,i,s,n);let e=window.innerWidth;window.addEventListener("resize",function(e){let t;return function(o){t&&clearTimeout(t),t=setTimeout(e,150,o)}}((()=>{let t=window.innerWidth;e!==t&&l(r,i,s,n),e=t})))}function l(e,t,o,n){window.matchMedia("(min-width: "+n+")").matches?o.appendChild(e):t.appendChild(e)}}root.classList.add("has-js"),function e(){document.body?(root.classList.add("js-scrollbar-width-set"),document.documentElement.style.setProperty("--scrollbar-width",getScrollbarWidth()),window.addEventListener("resize",(function(){document.documentElement.style.setProperty("--scrollbar-width",getScrollbarWidth())})),waitForElExistence(".site-peak").then((e=>{const t=document.querySelector(".l-body"),o=document.querySelector(".site-header"),n=document.querySelector(".site-peak");let r,i,s,l,d=document.querySelector('.site-peak [role="alert"]');if(n.hasChildNodes()){function c(){document.documentElement.style.removeProperty("--site-header-offset"),o.style.transform="",window.removeEventListener("scroll",a,!1),window.matchMedia("(min-width: 1200px)").matches?(r=n.offsetHeight,i=getComputedStyle(t),s=r+parseInt(i.paddingTop.replace("px","")),document.documentElement.style.setProperty("--site-header-offset",s+"px"),o.style.transform="translateY("+r+"px)",window.addEventListener("scroll",a,!1)):window.removeEventListener("scroll",a,!1)}function a(){null!==d&&(window.pageYOffset>=r?(o.style.position="fixed",o.style.transform=""):(o.style.position="",o.style.transform="translateY("+r+"px)"))}d&&(l=getCookie("sitePeakAlertHidden"),null===l||l!==d.id?(root.classList.add("js-alert-visible"),c()):n.remove(),d.addEventListener("hide.bs.collapse",(()=>{root.classList.remove("js-alert-visible"),document.documentElement.style.setProperty("--site-header-offset",""),o.style.transform="",setCookie("sitePeakAlertHidden",d.id,2),d=null}))),window.addEventListener("resize",(function(){(n&&null===l||l!==d.id)&&c()})),toggleDomLocation(".site-peak",".site-peak-mobile-placeholder",".site-peak-desktop-placeholder","1200")}}))):window.requestAnimationFrame(e)}();
+</script>
 </head>
-<body class="path-node page-node-type-program"> 
-<!-- End Google Tag Manager (noscript) -->
-<!-- Minnesota_St. Cloud_St. Cloud Technical & Community College Pixel_5.16.22 -->
-<script src="//action.dstillery.com/orbserv/nsjs?adv=cl1016361&ns=3141&nc=stcl&ncv=24&dstOrderId=[OrderId]&dstOrderAmount=[OrderAmount]" type="text/javascript"></script><noscript>
-    <img width="1" height="1" src="//action.dstillery.com/orbserv/nspix?adv=cl1016361&ns=3141&nc=stcl&ncv=24&dstOrderId=[OrderId]&dstOrderAmount=[OrderAmount]" /></noscript>
-<!-- End Minnesota_St. Cloud_St. Cloud Technical & Community College Pixel_5.16.22 -->
-<!-- Facebook Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-          n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-          'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '1174779465894958');
-  fbq('track', 'PageView');
-</script>
-<noscript>
-  <img height="1" width="1" style="display:none"
-       src="https://www.facebook.com/tr?id=1174779465894958&ev=PageView&noscript=1"/>
-</noscript>
-<!-- End Facebook Pixel Code -->
-<a href="#main-content" class="visually-hidden focusable skip-link">
-  Skip to main content
-</a>
+<body class="l-body has-header-fixed off-canvas-left" data-off-canvas-breakpoint="1200">
 
-  <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
-    <div class="overlay"></div>
-<div class="layout-container">
+  
+    
 
-  <header role="banner" class="header">
-    <div class="header__topbar">
-            <div class="header__logo">
-        <a href="/" rel="home">
-          <img src="https://sctcc.edu/sites/default/files/wrapper/2023-04/sctcc-header-logo.svg"
-               alt="SCTCC logo"
-               width="149"
-               height="55"
-          />
-        </a>
-      </div>
-              <div class="header__topbar-menu">
-                                <div class="header__secondary-menu">
-                <div class="region region-secondary-menu">
-    <nav role="navigation" aria-label="Secondary" id="block-secondarynavigation" class="block block-menu navigation menu--secondary-navigation">
-<h2 class="visually-hidden">Secondary navigation</h2>
+    <div class="l-surround">
         
+<a href="#main" class="skip-link">Skip to main content</a>
 
-        <ul class="menu">
-                        <li class="menu-item menu-dropdown">
-                                              <button class="menu__toggle no-link" aria-expanded="false">
-                <span>Current Students</span>
-              </button>
-                          <div class="menu__drop">
-              <div class="menu__drop-inner">
-                        <ul class="menu__submenu">
-              <li class="menu-item">
-          <a href="https://sctcc.edu/student-resources" >Student Services</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/quick-resource-guide-sctcc-students" >Quick Guide</a>
-                  </li>
-              <li class="menu-item">
-          <a href="http://outlook.com/minnstate.edu" >Email</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.learn.minnstate.edu/?target=%2fd2l%2fhome" >D2L Brightspace</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://eservices.minnstate.edu/eservices/login.html?campusid=208" >eServices</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://mnpals-sct.primo.exlibrisgroup.com/discovery/search?vid=01MNPALS_SCT:SCT&amp;sortby=rank" >Library Catalog</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.navigate.eab.com/" >Navigate</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://bookstop.sctcc.edu/home" >BOOKStore</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://eservices.minnstate.edu/registration/search/basic.html?campusid=208" >Class Schedules</a>
-                  </li>
-          </ul>
-  
-              </div>
-            </div>
-                  </li>
-                        <li class="menu-item menu-dropdown">
-                                              <button class="menu__toggle no-link" aria-expanded="false">
-                <span>Faculty &amp; Staff</span>
-              </button>
-                          <div class="menu__drop">
-              <div class="menu__drop-inner">
-                        <ul class="menu__submenu">
-              <li class="menu-item">
-          <a href="https://sctcc.edu/employees" >Employee Resources</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/academic-calendar" >Academic Calendar</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/employee_directory" >Employee Directory</a>
-                  </li>
-              <li class="menu-item">
-          <a href="http://outlook.com/minnstate.edu" >Email</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://eservices.minnstate.edu/faculty/public/secure/home/index?campusid=208" >Faculty eServices</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.learn.minnstate.edu/?target=/d2l/home" >D2L Brightspace</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.campus.eab.com/" >Navigate</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/help-desk-faculty" >Technology Support</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/quick-resource-guide-sctcc-employees" >Quick Guide</a>
-                  </li>
-          </ul>
-  
-              </div>
-            </div>
-                  </li>
-                        <li class="menu-item menu-dropdown">
-                                              <button class="menu__toggle no-link" aria-expanded="false">
-                <span>Alumni</span>
-              </button>
-                          <div class="menu__drop">
-              <div class="menu__drop-inner">
-                        <ul class="menu__submenu">
-              <li class="menu-item">
-          <a href="https://sctccathletics.com" >Cyclones Athletics</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/foundation" >Foundation</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/get-involved" >Get Involved</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/giving" >Ways to Give</a>
-                  </li>
-          </ul>
-  
-              </div>
-            </div>
-                  </li>
-                        <li class="menu-item">
-                      <a href="https://sctcc.edu/events">Events</a>
+
+<header class=" site-header headroom l-header">
+    <div class="site-header__elements l-header__elements">
+            <div class="site-header__utility-nav-desktop js-utility-nav--desktop-parking">
+                <div class="site-header__utility-nav">
+                    <ul>
+                            <li>
+                                <a href="#/about-msu/">About MSU</a>
                             </li>
-                        <li class="menu-item">
-                      <a href="https://translate.google.com/translate?hl=&amp;sl=en&amp;tl=es&amp;u=https%3A%2F%2Fsctcc.edu">Select Language</a>
+                            <li>
+                                <a href="E/current-students/">Current Students</a>
                             </li>
-          </ul>
-  
-
-
-
-  </nav>
-
-  </div>
-
+                            <li>
+                                <a href="https://msumavericks.com">Athletics</a>
+                            </li>
+                            <li>
+                                <a href="#/giving/">Giving</a>
+                            </li>
+                            <li>
+                                <a href="#/become-a-partner/">Become a Partner</a>
+                            </li>
+                            <li>
+                                <a href="#/alumni/">Alumni</a>
+                            </li>
+                    </ul>
+                </div>
             </div>
-          
-                      <div class="mobile--hamburger" role="Navigation" aria-label="full">
-              <button class="header__menu-toggle toggle-button menu-toggle" aria-expanded="false"><span class="visually-hidden">Menu</span></button>
+
+        <div class="site-header__main-bar">
+
+            <!-- Mobile logo -->
+            <a class="site-header__logo" href="/">
+                <img src="https://www.mnsu.edu/maverick/images/msu-logo.svg" alt="" width="180" height="59">
+                <span class="visually-hidden">Minnesota State University, Mankato</span>
+            </a>
+
+            <div class="site-header__mobile-controls">
+                    <div class="site-header__search-toggle-mobile js-search-toggle--mobile-parking">
+                        <button id="navSearchCollapseToggle" class="btn btn-search btn-search--toggle collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navSearchCollapse">
+                            <span class="visually-hidden">Search</span>
+                            <img class="icon-nav-search-close" src="https://www.mnsu.edu/maverick/images/icon-close-search.svg" alt="" width="36" height="36">
+                            <img class="icon-nav-search" src="https://www.mnsu.edu/maverick/images/icon-search.svg" alt="" width="24" height="24">
+                        </button>
+                    </div>
+                <!-- Show/hide off-canvas button -->
+                <button class="toggle-off-canvas toggle-hamburger" type="button" aria-expanded="false" aria-controls="offCanvasArea" aria-label="Open Menu">
+                    <span class="toggle-hamburger__wrapper">
+                        <span class="toggle-hamburger__bun"></span>
+                        <span class="toggle-hamburger__bun"></span>
+                        <span class="toggle-hamburger__bun"></span>
+                    </span>
+                </button>
             </div>
-                  
-                    <div class="search--main" role="Search">
-            <button class="header__search-toggle toggle-button search-button" aria-expanded="false">
-              <span class="visually-hidden">Expand Search</span>
-            </button>
-            <div class="header__search">
-                                <div class="region region-search">
-    <div class="views-exposed-form block block-views block-views-exposed-filter-blocksearch-main-page-1" data-drupal-selector="views-exposed-form-search-main-page-1" id="block-exposedformsearch-mainpage-1">
-  
-    
-      <form action="https://sctcc.edu/search" method="get" id="views-exposed-form-search-main-page-1" accept-charset="UTF-8">
-  <div class="form--inline clearfix">
-  <div class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-keyword form-item-keyword form-no-label">
-      
 
+            <!-- Put elements in l-off-canvas container if you want them off canvas -->
+            <div class="site-header__off-canvas l-off-canvas slide-over-transition" id="offCanvasArea" tabindex="-1" role="navigation">
+                <div class="l-off-canvas__helper">
+                    <h4 id="offCanvasTitle" class="visually-hidden">Site navigation</h4>
 
-    <label for="edit-keyword" class="visually-hidden">Search</label>
-        <input data-drupal-selector="edit-keyword" type="text" id="edit-keyword" name="keyword" value="" size="30" maxlength="128" class="form-text" />
+                    <nav class="main-nav mln mln--navbar mln--navbar-slide-over" data-mln-breakpoint="1200" aria-label="primary">
 
-        </div>
-<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit-search-main" type="submit" id="edit-submit-search-main" value="Submit" class="button js-form-submit form-submit" />
-</div>
+                        <!-- Desktop logo -->
+                        <a class="site-header__logo" href="/">
+                            <img src="https://www.mnsu.edu/maverick/images/msu-logo.svg" alt="" width="260" height="83">
+                            <span class="visually-hidden">Minnesota State University, Mankato Home Page</span>
+                        </a>
 
-</div>
+                        <!-- Navigation list -->
+                            <ul class="site-header__nav-list mln__list">
+                                    <li>
+                                        <a href="#/find-a-program/">Programs</a>
+                                        <div class="mln__child__mega-menu">
+                                            <div class="mega-menu__wrap">
+                                                <div class="mega-menu__col-row">
+                                                    <div class="mega-menu__col">
+                                                        <div class="mega-menu__intro">
+                                                                <p class="mega-menu__intro-heading">Programs</p>
+                                                                <p class="mega-menu__intro-summary">Minnesota State Mankato offers a diverse array of degree programs to explore, and countless opportunities for success both inside and outside the classroom. Here, you&#x27;ll not only gain knowledge but also develop real-world thinking, engage with big ideas, and be inspired to take meaningful action. Join us and unlock your full potential!</p>
+                                                                <a class="arrow-link" href="#/find-a-program/">Find a Program</a>
+                                                        </div>
+                                                    </div>
+                                                            <div class="mega-menu__col">
+                                                                <div class="mega-menu__content">
 
-</form>
+        <h3 class="h4">Find Your Ideal Program</h3>
+    <ul>
+            <li>
+                <a href="#/find-a-program/undergraduate-degrees/">Undergraduate Programs</a>
+            </li>
+            <li>
+                <a href="#/find-a-program/graduate-programs/">Graduate Programs</a>
+            </li>
+            <li>
+                <a href="#/find-a-program/earn-a-degree-online/">Programs offered Online</a>
+            </li>
+            <li>
+                <a href="https://mankato.mnsu.edu/about-the-university/strategic-partnerships/workforce-professional-education/">Training and Professional Education</a>
+            </li>
+    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="mega-menu__col">
+                                                                <div class="mega-menu__content">
 
-  </div>
+        <h3 class="h4">Academic Catalog</h3>
+    <ul>
+            <li>
+                <a href="https://www.mnsu.edu/academic-catalog/">Academic Catalog</a>
+            </li>
+            <li>
+                <a href="https://www.mnsu.edu/academic-catalog/undergraduate/graduation-requirements/">Graduation Requirements</a>
+            </li>
+            <li>
+                <a href="https://www.mnsu.edu/academic-catalog/active-course-list/">Active Course List</a>
+            </li>
+            <li>
+                <a href="https://www.mnsu.edu/academic-catalog/all-active-catalogs/">All Active Catalogs</a>
+            </li>
+    </ul>
+                                                                </div>
+                                                            </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.mnsu.edu/become-a-student/">Become a Student</a>
+                                        <div class="mln__child__mega-menu">
+                                            <div class="mega-menu__wrap">
+                                                <div class="mega-menu__col-row">
+                                                    <div class="mega-menu__col">
+                                                        <div class="mega-menu__intro">
+                                                                <p class="mega-menu__intro-heading">Become a Student</p>
+                                                                <p class="mega-menu__intro-summary">Become a student at Minnesota State University, Mankato and join a right-sized University campus where you&#x2019;ll find access to comprehensive resources and global community connections. </p>
+                                                                <a class="arrow-link" href="https://www.mnsu.edu/become-a-student/">Become a Student</a>
+                                                        </div>
+                                                    </div>
+                                                            <div class="mega-menu__col">
+                                                                <div class="mega-menu__content">
 
-  </div>
+        <h3 class="h4">Choose your Pathway</h3>
+    <ul>
+            <li>
+                <a href="https://www.mnsu.edu/become-a-student/undergraduate-students/">First Year Undergraduate Student</a>
+            </li>
+            <li>
+                <a href="https://www.mnsu.edu/become-a-student/graduate-students/">Graduate Student</a>
+            </li>
+            <li>
+                <a href="https://www.mnsu.edu/become-a-student/international-students/">International Student</a>
+            </li>
+            <li>
+                <a href="https://www.mnsu.edu/become-a-student/transfer-to-msu/">Transfer Student</a>
+            </li>
+            <li>
+                <a href="https://www.mnsu.edu/become-a-student/postsecondary-student/">Postsecondary Student (PSEO)</a>
+            </li>
+            <li>
+                <a href="https://www.mnsu.edu/become-a-student/admitted-students/">Admitted Student</a>
+            </li>
+            <li>
+                <a href="https://www.mnsu.edu/become-a-student/returning-to-msu/">Returning Student</a>
+            </li>
+    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="mega-menu__col">
+                                                                <div class="mega-menu__content">
 
-                          </div>
-          </div>
-        </div>
-            
-    </div>
-        <div class="header__inner">
-      <div class="header__menu-wrapper">
-                  <div class="header__main-menu">
-              <div class="region region-main-menu">
-    <nav role="navigation" aria-label="Main" id="block-sctcc-main-menu" class="block block-menu navigation menu--main">
-<h2 class="visually-hidden">Main navigation</h2>
-        
-        <ul class="menu">
-                        <li class="menu-item menu-dropdown menu-item--active-trail">
-                      <div class="item_sub">
-              <a href="https://sctcc.edu/degrees-programs" data-drupal-link-system-path="node/39">Degrees &amp; Programs</a>
-              <button class="menu__toggle" aria-expanded="false"><span class="visually-hidden">Expand Submenu</span></button>
-              <button class="menu__toggle-lg visually-hidden" aria-expanded="false"><span class="visually-hidden">Expand Submenu</span></button>
+        <h3 class="h4">Additional Information</h3>
+    <ul>
+            <li>
+                <a href="https://www.mnsu.edu/request-information/">Request Information</a>
+            </li>
+            <li>
+                <a href="https://www.mnsu.edu/visit/">Visit MSU</a>
+            </li>
+            <li>
+                <a href="https://www.mnsu.edu/become-a-student/value-of-msu/">Value of MSU</a>
+            </li>
+    </ul>
+                                                                </div>
+                                                            </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.mnsu.edu/paying-for-college/">Paying for College</a>
+                                        <div class="mln__child__mega-menu">
+                                            <div class="mega-menu__wrap">
+                                                <div class="mega-menu__col-row">
+                                                    <div class="mega-menu__col">
+                                                        <div class="mega-menu__intro">
+                                                                <p class="mega-menu__intro-heading">Paying for College</p>
+                                                                <p class="mega-menu__intro-summary">Minnesota State University Mankato offers a variety of resources to make your college experience attainable and affordable.  </p>
+                                                                <a class="arrow-link" href="https://www.mnsu.edu/paying-for-college/">Paying for College</a>
+                                                        </div>
+                                                    </div>
+                                                            <div class="mega-menu__col">
+                                                                <div class="mega-menu__content">
+
+        <h3 class="h4">Tuition and Cost</h3>
+    <ul>
+            <li>
+                <a href="https://www.mnsu.edu/paying-for-college/cost-of-attendance/">Cost of Attendance</a>
+            </li>
+            <li>
+                <a href="https://www.mnsu.edu/paying-for-college/cost-of-attendance/student-fees/">Student Fees</a>
+            </li>
+            <li>
+                <a href="https://www.mnsu.edu/paying-for-college/important-dates-tuition-fee-schedule/">Important Dates: Tuition and Fee Schedule</a>
+            </li>
+            <li>
+                <a href="https://www.mnsu.edu/paying-for-college/pay-your-bill/">Pay Your Bill</a>
+            </li>
+    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="mega-menu__col">
+                                                                <div class="mega-menu__content">
+
+        <h3 class="h4">Financial Aid</h3>
+    <ul>
+            <li>
+                <a href="https://www.mnsu.edu/paying-for-college/apply-for-aid/">Apply for Aid</a>
+            </li>
+            <li>
+                <a href="https://www.mnsu.edu/paying-for-college/work-study/">Work Study</a>
+            </li>
+            <li>
+                <a href="https://secure2.mnsu.edu/FinancialAid/">Financial Aid Portal</a>
+            </li>
+            <li>
+                <a href="https://www.mnsu.edu/paying-for-college/veterans-military-tuition-benefits/">Veteran and Military Tuition Benefits</a>
+            </li>
+    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="mega-menu__col">
+                                                                <div class="mega-menu__content">
+
+        <h3 class="h4">Additional Information</h3>
+    <ul>
+            <li>
+                <a href="https://www.mnsu.edu/paying-for-college/scholarships/">Scholarships</a>
+            </li>
+            <li>
+                <a href="https://www.mnsu.edu/paying-for-college/loans/">Loans</a>
+            </li>
+            <li>
+                <a href="https://www.mnsu.edu/paying-for-college/grants/">Grants</a>
+            </li>
+            <li>
+                <a href="https://www.mnsu.edu/paying-for-college/cost-of-attendance/graduate-student-cost-of-attendance/graduate-assistantships/">Graduate Assistantships</a>
+            </li>
+            <li>
+                <a href="https://www.mnsu.edu/paying-for-college/campus-jobs/">Campus Jobs</a>
+            </li>
+            <li>
+                <a href="https://www.mnsu.edu/paying-for-college/residency-and-reciprocity/">Residency and Reciprocity</a>
+            </li>
+    </ul>
+                                                                </div>
+                                                            </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.mnsu.edu/life-at-msu/">Life at MSU</a>
+                                        <div class="mln__child__mega-menu">
+                                            <div class="mega-menu__wrap">
+                                                <div class="mega-menu__col-row">
+                                                    <div class="mega-menu__col">
+                                                        <div class="mega-menu__intro">
+                                                                <p class="mega-menu__intro-heading">Life at MSU</p>
+                                                                <p class="mega-menu__intro-summary">&#x200B;&#x200B;Find your sense of belonging and explore university life at MSU. We have something for everyone. Learn about clubs and organizations, housing, dining, and other resources. &#x200B; </p>
+                                                                <a class="arrow-link" href="https://www.mnsu.edu/life-at-msu/">Life at MSU</a>
+                                                        </div>
+                                                    </div>
+                                                            <div class="mega-menu__col">
+                                                                <div class="mega-menu__content">
+
+        <h3 class="h4">Living and Dining</h3>
+    <ul>
+            <li>
+                <a href="https://mankato.mnsu.edu/university-life/housing/residential-life/" target="_top">Living on Campus</a>
+            </li>
+            <li>
+                <a href="https://offcampushousing.mnsu.edu/">Off-Campus Housing</a>
+            </li>
+            <li>
+                <a href="https://mankato.mnsu.edu/university-life/housing/residential-life/dining-meal-plans/">Dining and Meal Plans</a>
+            </li>
+    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="mega-menu__col">
+                                                                <div class="mega-menu__content">
+
+        <h3 class="h4">Engage</h3>
+    <ul>
+            <li>
+                <a href="https://www.mnsu.edu/life-at-msu/diversity-at-msu/">Diversity at MSU</a>
+            </li>
+            <li>
+                <a href="https://mankato.mnsu.edu/academics/global-education/">Study Abroad and Global Education</a>
+            </li>
+            <li>
+                <a href="https://www.mnsu.edu/life-at-msu/student-organizations/">Student Organizations</a>
+            </li>
+            <li>
+                <a href="https://www.mnsu.edu/life-at-msu/fraternity-and-sorority-life/">Fraternity and Sorority Life</a>
+            </li>
+            <li>
+                <a href="https://mankato.mnsu.edu/university-life/activities-and-organizations/student-activities-events/">Student Events</a>
+            </li>
+    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="mega-menu__col">
+                                                                <div class="mega-menu__content">
+
+    <ul>
+            <li>
+                <a href="https://www.mnsu.edu/life-at-msu/university-security/">University Security</a>
+            </li>
+            <li>
+                <a href="https://www.mnsu.edu/life-at-msu/centennial-student-union/">Centennial Student Union (CSU)</a>
+            </li>
+            <li>
+                <a href="https://mankato.mnsu.edu/university-life/campus-recreation/">Campus Recreation</a>
+            </li>
+    </ul>
+                                                                </div>
+                                                            </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.mnsu.edu/student-support/">Student Support</a>
+                                        <div class="mln__child__mega-menu">
+                                            <div class="mega-menu__wrap">
+                                                <div class="mega-menu__col-row">
+                                                    <div class="mega-menu__col">
+                                                        <div class="mega-menu__intro">
+                                                                <p class="mega-menu__intro-heading">Student Support and Resources</p>
+                                                                <p class="mega-menu__intro-summary">Minnesota State University, Mankato offers a variety of student support resources to help students navigate their college experience. </p>
+                                                                <a class="arrow-link" href="https://www.mnsu.edu/student-support/">Student Support</a>
+                                                        </div>
+                                                    </div>
+                                                            <div class="mega-menu__col">
+                                                                <div class="mega-menu__content">
+
+        <h3 class="h4">Wellbeing and Student Services</h3>
+    <ul>
+            <li>
+                <a href="https://mankato.mnsu.edu/university-life/campus-services/accessibility-resources/">Accessibility Resources</a>
+            </li>
+            <li>
+                <a href="https://www.mnsu.edu/student-support/counseling-center/">Counseling Center</a>
+            </li>
+            <li>
+                <a href="https://www.mnsu.edu/student-support/registration-and-records/">Registration and Records</a>
+            </li>
+            <li>
+                <a href="https://www.mnsu.edu/student-support/student-health-services/">Student Health Services</a>
+            </li>
+    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="mega-menu__col">
+                                                                <div class="mega-menu__content">
+
+        <h3 class="h4">Academic Support</h3>
+    <ul>
+            <li>
+                <a href="https://www.mnsu.edu/student-support/academic-advising/">Academic Advising</a>
+            </li>
+            <li>
+                <a href="https://mankato.mnsu.edu/academics/academic-support/student-support-centers/center-for-academic-success/">Center for Academic Success</a>
+            </li>
+            <li>
+                <a href="https://mankato.mnsu.edu/academics/academic-support/student-support-centers/">Student Support Centers</a>
+            </li>
+            <li>
+                <a href="https://services.mnsu.edu/TDClient/30/Portal/Requests/ServiceDet?ID=36">Technology Support</a>
+            </li>
+            <li>
+                <a href="https://mankato.mnsu.edu/academics/academic-support/scholarly-communities/learning-communities/">Learning Communities</a>
+            </li>
+    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="mega-menu__col">
+                                                                <div class="mega-menu__content">
+
+        <h3 class="h4">Career and Enrichment</h3>
+    <ul>
+            <li>
+                <a href="https://www.mnsu.edu/student-support/career-development-center/">Career Development Center</a>
+            </li>
+            <li>
+                <a href="https://library.mnsu.edu/">Library Services</a>
+            </li>
+            <li>
+                <a href="https://research.mnsu.edu/undergraduate-research-center/">Undergraduate Research</a>
+            </li>
+            <li>
+                <a href="https://mankato.mnsu.edu/academics/academic-support/scholarly-communities/honors/">Honors Program</a>
+            </li>
+    </ul>
+                                                                </div>
+                                                            </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="site-header__search-toggle-desktop js-search-toggle--desktop-parking"></div>
+                                    </li>
+                            </ul>
+                        <div class="site-header__cta-group-mobile js-cta-group--mobile-parking"></div>
+                        <div class="site-header__utility-nav-mobile js-utility-nav--mobile-parking"></div>
+                    </nav>
+                </div>
             </div>
-                                <div class="menu__drop">
-              <div class="menu__drop-inner">
-                        <ul class="menu__submenu">
-              <li class="menu-item">
-          <a href="https://sctcc.edu/business-it" >Business, IT, &amp; Education Programs</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/health" >Health Sciences &amp; Nursing Programs</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/aa" >Liberal Arts &amp; Transfer Studies</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/construction"  class="active-trail" >Trades in Construction</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/manufacturing" >Trades in Manufacturing</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/transportation" >Trades in Transportation Repair</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/degrees-programs/all-degrees-programs" >All Degrees &amp; Programs</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/degrees-programs/career-program-finder" >Career &amp; Program Finder</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/degrees" >Degree and Certification Options</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/learning-options" >Programs for High School Students</a>
-                  </li>
-          </ul>
-  
-              </div>
-            </div>
-                  </li>
-                        <li class="menu-item menu-dropdown">
-                      <div class="item_sub">
-              <a href="https://sctcc.edu/admissions-apply-sctcc" data-drupal-link-system-path="node/40">Admissions</a>
-              <button class="menu__toggle" aria-expanded="false"><span class="visually-hidden">Expand Submenu</span></button>
-              <button class="menu__toggle-lg visually-hidden" aria-expanded="false"><span class="visually-hidden">Expand Submenu</span></button>
-            </div>
-                                <div class="menu__drop">
-              <div class="menu__drop-inner">
-                        <ul class="menu__submenu">
-              <li class="menu-item">
-          <a href="https://sctcc.edu/admissions-apply-sctcc" >How to Apply</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/visit" >Tour SCTCC</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/form/request-for-information" >Request Information</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/accuplacer" >Course Placement &amp; Testing - Accuplacer</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/orientation" >eOrientation &amp; Registration</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/records" >Records &amp; Registration</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/change-your-program-status" >Change your Program Status</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/admissions-forms" >Admissions Forms</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/meet-admissions-and-recruitment-staff" >Meet our Admissions Staff</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/express" >Express Enroll at SCTCC</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/summer" >Summer Session at SCTCC</a>
-                  </li>
-          </ul>
-  
-              </div>
-            </div>
-                  </li>
-                        <li class="menu-item menu-dropdown">
-                      <div class="item_sub">
-              <a href="https://sctcc.edu/tuition-aid" data-drupal-link-system-path="node/41">Tuition &amp; Aid</a>
-              <button class="menu__toggle" aria-expanded="false"><span class="visually-hidden">Expand Submenu</span></button>
-              <button class="menu__toggle-lg visually-hidden" aria-expanded="false"><span class="visually-hidden">Expand Submenu</span></button>
-            </div>
-                                <div class="menu__drop">
-              <div class="menu__drop-inner">
-                        <ul class="menu__submenu">
-              <li class="menu-item">
-          <a href="https://sctcc.edu/applying-financial-aid" >Applying for Financial Aid</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/tuition" >Tuition &amp; Fees</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/scholarships" >Scholarships</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/payment-policies" >Payments &amp; Policies</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/Paying-Your-Bill" >Paying Your Bill with Financial Aid</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/financial-aid-types" >Types of Aid</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/financial-aid-forms" >Forms &amp; Resources</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/Financial-Aid-Eligibility" >Maintaining Financial Aid Eligibility</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/veterans-aid" >Veterans &amp; Military Aid</a>
-                  </li>
-          </ul>
-  
-              </div>
-            </div>
-                  </li>
-                        <li class="menu-item menu-dropdown">
-                      <div class="item_sub">
-              <a href="https://sctcc.edu/student-resources" data-drupal-link-system-path="node/42">Student Stuff</a>
-              <button class="menu__toggle" aria-expanded="false"><span class="visually-hidden">Expand Submenu</span></button>
-              <button class="menu__toggle-lg visually-hidden" aria-expanded="false"><span class="visually-hidden">Expand Submenu</span></button>
-            </div>
-                                <div class="menu__drop">
-              <div class="menu__drop-inner">
-                        <ul class="menu__submenu">
-              <li class="menu-item">
-          <a href="https://sctcc.edu/student-stuff/academic-info-students" >Academic</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/quick-resource-guide-sctcc-students" >Quick Guide for SCTCC Students</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/student-resources" >Student Resources</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/student-stuff/campus-life" >Campus Life</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctccathletics.com/landing/index" >Cyclones Athletics</a>
-                  </li>
-              <li class="menu-item">
-          <a href="http://sctcc.edu/student-handbook" >Student Handbook</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/report-it" >Just Report It</a>
-                  </li>
-          </ul>
-  
-              </div>
-            </div>
-                  </li>
-                        <li class="menu-item menu-dropdown">
-                      <div class="item_sub">
-              <a href="https://sctcc.edu/about-sctcc" data-drupal-link-system-path="node/43">About Us</a>
-              <button class="menu__toggle" aria-expanded="false"><span class="visually-hidden">Expand Submenu</span></button>
-              <button class="menu__toggle-lg visually-hidden" aria-expanded="false"><span class="visually-hidden">Expand Submenu</span></button>
-            </div>
-                                <div class="menu__drop">
-              <div class="menu__drop-inner">
-                        <ul class="menu__submenu">
-              <li class="menu-item">
-          <a href="https://sctcc.edu/contact-us" >Contact Us</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/visit" >Visit Us</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/about-sctcc" >About SCTCC</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/about-us/news-events" >News, Stories, &amp; Events</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/leadership" >Leadership</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/Community-Culture-Institutional-Climate" >Community, Culture, and Institutional Climate</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/accreditation" >Accreditation at SCTCC</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/employment-opportunities" >Careers at SCTCC</a>
-                  </li>
-          </ul>
-  
-              </div>
-            </div>
-                  </li>
-                        <li class="menu-item menu-dropdown">
-                      <div class="item_sub">
-              <a href="https://sctcc.edu/community-training" data-drupal-link-system-path="node/197">Community &amp; Training</a>
-              <button class="menu__toggle" aria-expanded="false"><span class="visually-hidden">Expand Submenu</span></button>
-              <button class="menu__toggle-lg visually-hidden" aria-expanded="false"><span class="visually-hidden">Expand Submenu</span></button>
-            </div>
-                                <div class="menu__drop">
-              <div class="menu__drop-inner">
-                        <ul class="menu__submenu">
-              <li class="menu-item">
-          <a href="https://sctcc.edu/training" >Customized Training</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/Community-Culture-Institutional-Climate" >Community, Culture, and Institutional Climate</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/giving" >Ways to Give</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/foundation" >SCTCC Foundation</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/sctcc-dental-clinic" >Community Dental Clinic</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/northwaygroup" >The Northway Group</a>
-                  </li>
-              <li class="menu-item">
-          <a href="https://sctcc.edu/youth-programs-camps" >Youth Programs &amp; Camps</a>
-                  </li>
-          </ul>
-  
-              </div>
-            </div>
-                  </li>
-          </ul>
-  
-
-
-
-  </nav>
-
-  </div>
-
-          </div>
-              </div>
-    </div>
-  </header>
-
-    <div class="region region-help">
-    <div data-drupal-messages-fallback class="hidden"></div>
-
-  </div>
-
-
-  <main role="main">
-    <a id="main-content" tabindex="-1"></a>            <div class="header_alert">
-        <div class="region region-alert">
-      <div data-sitewide-alert role="banner"></div>
-
-  </div>
-
-    </div>
-    
-            <div class="section__nav">
-        <div class="region region-section-nav">
-    <div class="block block-sctcc-section-bar-sticky" id="block-sectionbarsticky-2">
-  
-    
-      
-
-<div class="sctcc-section-bar site-section-bar">
-            <nav class="site-section-bar__nav" role="navigation" aria-label="Section">
-            <button class="site-section_bar__nav-toggle" aria-expanded="false">
-                More in this Section            </button>
-            <div class="site-section_bar__nav-menu">
-                
-<div class="menu menu--main site-section-nav">
-                  <ul class="menu menu--level-1">
-                  <li>
-                                    <a href="https://sctcc.edu/degrees-programs">Degrees &amp; Programs</a>
-                                          <ul class="menu menu--level-2">
-                  <li>
-                                    <a href="https://sctcc.edu/construction">Trades in Construction</a>
-                                          <ul class="menu menu--level-3">
-                  <li>
-                                    <a href="https://sctcc.edu/degrees-programs/architectural-construction-technology" data-drupal-link-system-path="node/470">Architectural Construction Technology</a>
-                      </li>
-                  <li>
-                                    <a href="https://sctcc.edu/degrees-programs/carpentry" data-drupal-link-system-path="node/471">Carpentry</a>
-                      </li>
-                  <li>
-                                    <a href="https://sctcc.edu/degrees-programs/electrical-construction-technology" data-drupal-link-system-path="node/472">Electrical Construction Technology</a>
-                      </li>
-                  <li>
-                                    <a href="https://sctcc.edu/degrees-programs/heating-air-conditioning-refrigeration" data-drupal-link-system-path="node/474">Heating, Air Conditioning, &amp; Refrigeration</a>
-                      </li>
-                  <li>
-                                    <a href="https://sctcc.edu/degrees-programs/land-surveyingcivil-engineering" data-drupal-link-system-path="node/476">Land Surveying/Civil Engineering</a>
-                      </li>
-                  <li>
-                                    <a href="https://sctcc.edu/degrees-programs/plumbing" data-drupal-link-system-path="node/477">Plumbing</a>
-                      </li>
-                  <li>
-                                    <a href="https://sctcc.edu/degrees-programs/water-environment-technologies" data-drupal-link-system-path="node/481">Water Environment Technologies</a>
-                      </li>
-              </ul>
-    
-                      </li>
-              </ul>
-    
-                      </li>
-              </ul>
-    
-</div>
-
- 
-            </div>
-        </nav>
-    </div>
-
-  </div>
-
-  </div>
-
-    </div>
-    
-                                  <div class="banner with-hero-img">
-        <div class="banner__image">
-                      
-            <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="https://sctcc.edu/sites/default/files/styles/hero_banner/public/uploads/img/2023-04/ArchitecturalConstruction_2022-20.jpg?h=8050abc0&amp;itok=G5ErdM59 1x" media="(min-width: 1025px)" type="image/jpeg" width="1200" height="384"/>
-              <source srcset="https://sctcc.edu/sites/default/files/styles/hero_banner_md/public/uploads/img/2023-04/ArchitecturalConstruction_2022-20.jpg?h=8050abc0&amp;itok=f-c6Tycl 1x" media="(min-width: 700px)" type="image/jpeg" width="700" height="390"/>
-              <source srcset="https://sctcc.edu/sites/default/files/styles/hero_banner_sm/public/uploads/img/2023-04/ArchitecturalConstruction_2022-20.jpg?h=8050abc0&amp;itok=12iUuCJQ 1x" type="image/jpeg" width="320" height="265"/>
-                  <img loading="lazy" width="1200" height="384" src="https://sctcc.edu/sites/default/files/styles/hero_banner/public/uploads/img/2023-04/ArchitecturalConstruction_2022-20.jpg?h=8050abc0&amp;itok=G5ErdM59" alt="Architecture student with intructor at computer" typeof="foaf:Image" />
-
-  </picture>
-
-</div>
-      
-                                <button class="banner__video-toggle"><span class="visually-hidden">Video play</span></button>
-                  </div>
-                  <div class="banner__video remote_video" role="dialog" aria-label="Video: Architectural Construction Technology">
-            <button class="banner__video-close" aria-expanded="false"><span class="visually-hidden">Video close</span></button>
-            
-            <div class="field field--name-field-media-oembed-video field--type-string field--label-hidden field__item"><iframe src="https://sctcc.edu/media/oembed?url=https%3A//vimeo.com/1121256276&amp;max_width=1200&amp;max_height=675&amp;hash=s_QYRV_Jqys8oASnos9tzK35MDxQ4TGYJhZdgiB_pF0" width="1200" height="675" class="media-oembed-content" loading="lazy" title="Architectural Construction Tech"></iframe>
-</div>
-      
-          </div>
-                    <div class="banner__header-title pdetails__banner">
-  
-              
-      
-  <h1 class="page-title"><span class="field field--name-title field--type-string field--label-hidden">Architectural Construction Technology</span>
-</h1>
-
-  
-                  <div class="program__types">
-                   <span>AAS</span>
-                   <span>Diploma</span>
-              </div>
-      </div>
-
-
-
-      </div>
-        
-              <div class="breadcrumb">
-          <div class="region region-breadcrumb">
-    <div class="block block-sctcc-section-bar-sticky block-sctcc-section-breadcrumb" id="block-sctccbreadcrumb">
-  
-    
-      
-  <div class="site-section-bar__breadcrumb">
-    <nav aria-label="breadcrumbs">
-    <ul class="sctcc-breadcrumb breadcrumb">
-                    <li class="breadcrumb__crumb"><a href="/">Home</a></li>
-                    <li class="breadcrumb__crumb"><a href="https://sctcc.edu/degrees-programs">Degrees &amp; Programs</a></li>
-                    <li class="breadcrumb__crumb"><a href="https://sctcc.edu/construction">Trades in Construction</a></li>
-            </ul>
-</nav>
-
-  </div>
-
-
-  </div>
-
-  </div>
-
-      </div>
-        
-    
-    <div class="layout-content">
-                                <div class="content-wrapper sidebar">
-              <aside class="left-sidebar">
-            <div class="region region-left-sidebar">
-    <div class="block block-sctcc-section-bar-sticky block-sctcc-interior-navbar-sticky" id="block-interiornavbarsticky">
-  
-    
-      <div class="sctcc-section-bar site-section-bar">
-  <nav class="site-section-bar__nav" role="navigation" aria-label="Section">
-    <div class="site-section_bar__nav-menu">
-      
-<div class="menu menu--main site-section-nav">
-                  <ul class="menu menu--level-1">
-                  <li>
-                                    <a href="https://sctcc.edu/degrees-programs">Degrees &amp; Programs</a>
-                                          <ul class="menu menu--level-2">
-                  <li>
-                                    <a href="https://sctcc.edu/construction">Trades in Construction</a>
-                                          <ul class="menu menu--level-3">
-                  <li>
-                                    <a href="https://sctcc.edu/degrees-programs/architectural-construction-technology" data-drupal-link-system-path="node/470">Architectural Construction Technology</a>
-                      </li>
-                  <li>
-                                    <a href="https://sctcc.edu/degrees-programs/carpentry" data-drupal-link-system-path="node/471">Carpentry</a>
-                      </li>
-                  <li>
-                                    <a href="https://sctcc.edu/degrees-programs/electrical-construction-technology" data-drupal-link-system-path="node/472">Electrical Construction Technology</a>
-                      </li>
-                  <li>
-                                    <a href="https://sctcc.edu/degrees-programs/heating-air-conditioning-refrigeration" data-drupal-link-system-path="node/474">Heating, Air Conditioning, &amp; Refrigeration</a>
-                      </li>
-                  <li>
-                                    <a href="https://sctcc.edu/degrees-programs/land-surveyingcivil-engineering" data-drupal-link-system-path="node/476">Land Surveying/Civil Engineering</a>
-                      </li>
-                  <li>
-                                    <a href="https://sctcc.edu/degrees-programs/plumbing" data-drupal-link-system-path="node/477">Plumbing</a>
-                      </li>
-                  <li>
-                                    <a href="https://sctcc.edu/degrees-programs/water-environment-technologies" data-drupal-link-system-path="node/481">Water Environment Technologies</a>
-                      </li>
-              </ul>
-    
-                      </li>
-              </ul>
-    
-                      </li>
-              </ul>
-    
-</div>
-
-
-    </div>
-  </nav>
-</div>
-
-  </div>
-
-  </div>
-
-        </aside>
-            <div class="layout-content sidebar main-content">
-
-                  <div class="page-intro">
-            <p>Are you hoping to help create the world around us? Our Architectural Construction Technology program might be perfect for you.</p>
-
-                          <div class="page-links">
-                
-      <div class="field pdetails__links field--name-field-program-intro-links field--type-link field--label-hidden field__items">
-              <div class="field__item pdetails__item"><a href="https://sctcc.edu/program-faculty/act">Instructors</a></div>
-          </div>
-  
-              </div>
-                      </div>
-                  <div class="region region-content">
-    <div id="block-sctcc-content" class="block block-system block-system-main-block">
-  
-    
-      
-
-
-
-<article data-history-node-id="470" about="https://sctcc.edu/degrees-programs/architectural-construction-technology" class="pdetails full node node--type-program node--view-mode-full">
-   
-    <div class="prog-certs paragraph">
-      <h2 class="certs__program-main-heading">DEGREES IN <span class="field field--name-title field--type-string field--label-hidden">Architectural Construction Technology</span>
-</h2>
-      <div class="views-element-container"><div class="view view-cert-details view-id-cert_details view-display-id-block_1 js-view-dom-id-f4ffe720e646ad0dd91d580778dad21ebd4ac1ebb8f8dd4fed83dd4859ea12ea">
-  
-    
-      
-      <div class="view-content">
-          <div class="views-row">
-<div about="https://sctcc.edu/taxonomy/term/424" id="taxonomy-term-424" class="certs__program taxonomy-term vocabulary-certs">
-  <div class="content">
-    <div class="certs__program-heading">
-      <h3 class="certs__program-name">
-                  Architectural Construction Technology Associate of Applied Science
-              </h3>
-              <span class="certs__tags">
-            <div class="field field--name-field-cert-type-abbr field--type-string field--label-hidden field__item">AAS</div>
-      </span>
-          </div>
-
-    <div class="certs__program-content">
-      <div class="certs__program-left">
-                    <div class="certs__program-desc">
-              
-            <div class="field field--name-field-cert-description field--type-string-long field--label-hidden field__item">The AAS will prepare students for work as general contractors, architectural or engineering firms, and building material centers, suppliers, and manufacturers. Transfer to other schools with articulation agreements. </div>
-      
-            </div>
-        
-        <div class="contact-fifty-fifty__link faculty-card__cta--link">
-          <a href="https://sctcc.edu/cert-details/ACT2">Course List</a>
         </div>
-      </div>
-
-      <div class="certs__program-right pdegree">
-        <div class="faculty-card">
-          <div class="faculty-card__heading">
-            <h3>By the Numbers</h3>
-          </div>
-          <div class="faculty-card__body">
-            <div class="faculty-card__number prog-type__number">
-              <span class="number">
-            <div class="field field--name-field-cert-credits field--type-integer field--label-hidden field__item">61</div>
-      </span>
-              <span class="number-label">Credits</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</div>
-</div>
-    <div class="views-row">
-<div about="https://sctcc.edu/taxonomy/term/423" id="taxonomy-term-423" class="certs__program taxonomy-term vocabulary-certs">
-  <div class="content">
-    <div class="certs__program-heading">
-      <h3 class="certs__program-name">
-                  Architectural Construction Technology Diploma
-              </h3>
-              <span class="certs__tags">
-            <div class="field field--name-field-cert-type-abbr field--type-string field--label-hidden field__item">DIP</div>
-      </span>
-          </div>
-
-    <div class="certs__program-content">
-      <div class="certs__program-left">
-                    <div class="certs__program-desc">
-              
-            <div class="field field--name-field-cert-description field--type-string-long field--label-hidden field__item">The diploma will provide students with the the basic skills for a career as an architect.</div>
-      
-            </div>
-        
-        <div class="contact-fifty-fifty__link faculty-card__cta--link">
-          <a href="https://sctcc.edu/cert-details/ACT1">Course List</a>
-        </div>
-      </div>
-
-      <div class="certs__program-right pdegree">
-        <div class="faculty-card">
-          <div class="faculty-card__heading">
-            <h3>By the Numbers</h3>
-          </div>
-          <div class="faculty-card__body">
-            <div class="faculty-card__number prog-type__number">
-              <span class="number">
-            <div class="field field--name-field-cert-credits field--type-integer field--label-hidden field__item">52</div>
-      </span>
-              <span class="number-label">Credits</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</div>
-</div>
-
-    </div>
-  
-      
-          </div>
-</div>
-
-    </div>
-    <div class="node__content">
-    <div class="pdetails__content">
-      
-      
-      <div class="field field--name-field-body-paras field--type-entity-reference-revisions field--label-hidden field__items">
-              <div class="field__item">
-
-
-
-
-  <div class="wysiwyg paragraph">
-
-    
-              <div class="wysiwyg__body">
-          <h2>Why Choose This Program</h2>
-
-<p>Students in our program get a well-rounded, basic construction background, along with computer-aided drafting (CAD) skills that will prepare them for success in the business world.</p>
-
-<p>Students in our program can expect to study construction technology, materials, design, blueprint reading, and architectural, structural, and civil drafting techniques. These areas of study ensure our students have the tools they need to excel.</p>
-
-<p>Graduates are prepared for careers in residential and light commercial construction industries. With this degree, you can put your skills to work with a variety of companies. Our students have worked with construction companies, architectural or engineering firms, and even building material suppliers or manufacturers.</p>
-
-        </div>
-      
-    
-  </div>
-
-</div>
-              <div class="field__item">
-
-
-
-  <div class="stats3col paragraph">
-                  <h2 class="stats3col__header">
-          
-        </h2>
-      
-              <div class="stats3col__intro paragraph__intro">
-          
-        </div>
-      
-              <div class="stats3col__items">
-          
-
-      <div class="field field--name-field-stat3up-items field--type-entity-reference-revisions field--label-hidden column3col field__items">
-              <div class="field__item column3col__col" data-aos="fade-up" data-aos-duration="300" data-aos-anchor-placement="top-bottom">  <div class="paragraph paragraph--type--stat-item paragraph--view-mode--default">
-          
-            <div class="field field--name-field-stat-item-stat field--type-entity-reference field--label-hidden field__item">
-
-
-
-<article data-history-node-id="458" about="/node/458" class="statistic node node--type-stat node--view-mode-default">
-
-  <div class="statistic__content">
-          <div class="statistic__number">
-        100%
-      </div>
-              <div class="statistic__caption">
-        2024 Program Placement Rate
-      </div>
-      </div>
-
-</article>
-</div>
-      
-      </div>
-</div>
-              <div class="field__item column3col__col" data-aos="fade-up" data-aos-duration="300" data-aos-anchor-placement="top-bottom">  <div class="paragraph paragraph--type--stat-item paragraph--view-mode--default">
-          
-            <div class="field field--name-field-stat-item-stat field--type-entity-reference field--label-hidden field__item">
-
-
-
-<article data-history-node-id="4715" about="/node/4715" class="statistic node node--type-stat node--view-mode-default">
-
-  <div class="statistic__content">
-          <div class="statistic__number">
-        $46
-      </div>
-              <div class="statistic__caption">
-        Minnesota Median Wage
-      </div>
-      </div>
-
-</article>
-</div>
-      
-            <div class="field field--name-field-stat-item-link field--type-link field--label-hidden field__item"><a href="https://apps.deed.state.mn.us/lmi/oes/">Minnesota DEED</a></div>
-      
-      </div>
-</div>
-          </div>
-  
-        </div>
-      
-              <div class="stats3col__cta">
-          
-        </div>
-            </div>
-</div>
-              <div class="field__item">
-
-
-
-
-  <div class="wysiwyg paragraph">
-
-    
-              <div class="wysiwyg__body">
-          <p><i><i>Placement rate is self-reported data of graduates available for work in field of study up to one year post graduation</i><em>. Wage data is from Minnesota Dept. of Employment and Economic Development (DEED)</em></i><em>. <a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="d6663931-fa11-4e33-aa78-917fbf45ca7b" href="https://sctcc.edu/consumer-info">SCTCC Consumer Information.</a></em></p>
-
-        </div>
-      
-    
-  </div>
-
-</div>
-              <div class="field__item">
-
-
-
-
-  <div class="accordion content-narrow paragraph">
-
-    
-              <h2 class="paragraph__header">
-          From Degree to Career
-        </h2>
-      
-              <div class="paragraph__intro">
-          <p>When you choose the Architectural Construction Technology program at SCTCC, you’ll gain skills that will directly transfer to the workplace. There are several employers that are ready to hire.</p>
-
-        </div>
-      
-      <div class="accordion__all">
-        <button class="accordion__expand-all">Expand all</button>
-        <button class="accordion__collapse-all js-disabled" aria-expanded="false"
-                disabled>Collapse all</button>
-      </div>
-
-              <div class="accordion__items">
-          
-      <div class="field field--name-field-accordion-items field--type-entity-reference-revisions field--label-hidden field__items">
-              <div class="field__item">
-
-
-  <div class="accordion__item clearfix paragraph">
-
-    
-      <button class="accordion__toggle" aria-expanded="false">
-        What You&#039;ll Learn
-      </button>
-
-      <div class="accordion__content">
-        <p>At SCTCC we teach our students in the Architectural Construction Technology program the skills they need to succeed in their careers. Our students understand how to read and interpret schematics, manuals, and blueprints and can develop and draw, using conventional drafting techniques, to create preliminary plans and working drawings.</p>
-
-<p>With a degree from our program, students can expect to create conceptual and working drawings on a computer using AutoCad and Revit software, identify the structural and architectural elements that apply to the construction of light commercial buildings, and demonstrate an understanding of the thermal-dynamics of building envelopes.</p>
-
-<p>We even equip students with the ability to demonstrate skills to use systematic procedures for takeoff, listing, and pricing of materials for residential and commercial construction and utilize an understanding of the principles of residential floor plan and exterior design. When graduating from SCTCC, you will have the ability to read and interpret residential and commercial building plans, including Civil, Architectural, Structural and Mechanical-Electrical selections.</p>
-
-<p>To ensure our graduates are prepared for the workforce, we also teach them how to interpret various bidding procedures, finds, and disseminate information from commercial project manuals. Students will show skills of using principles of design that apply to multi-family and light commercial construction and identifying basic requirements of the IRC, Minnesota Building Code, and ADA Codes.</p>
-
-<h5>Quick Glance</h5>
-
-<ul>
-	<li>Read and interpret schematics, manuals, and blueprints&nbsp;</li>
-	<li>Develop and draw (using conventional drafting techniques) preliminary plans and working drawings&nbsp;</li>
-	<li>Create conceptual and working drawings on a computer using AutoCad and Revit software&nbsp;</li>
-	<li>Identify the structural and architectural elements that apply to the construction of light commercial buildings&nbsp;</li>
-	<li>Demonstrate an understanding of the thermal-dynamics of building envelopes&nbsp;</li>
-	<li>Demonstrate skills in using a systematic procedure for takeoff, listing and pricing of materials for residential and commercial construction&nbsp;</li>
-	<li>Read and interpret residential and commercial building plans, including Civil, Architectural, Structural and Mechanical-Electrical selections&nbsp;</li>
-	<li>Interpret various bidding procedures and finds and disseminates information from commercial project manuals&nbsp;</li>
-	<li>Demonstrates an understanding of the principles of residential floor plan and exterior design&nbsp;</li>
-	<li>Uses principles of design that apply to multi-family and light commercial construction&nbsp;</li>
-	<li>Identifies basic requirements of the IRC, Minnesota Building Code, and ADA Codes</li>
-</ul>
-
-<p><br />
-<a class="cta--link" href="https://webapps.sctcc.edu/plo/plo.php?id=ACT" rel="noopener" target="_blank">View all program learner outcomes</a></p>
-
-        <div class="accordion__top-wrapper">
-          <button class="accordion__top">Back to top</button>
-        </div>
-      </div>
-
-    
-  </div>
-
-</div>
-              <div class="field__item">
-
-
-  <div class="accordion__item clearfix paragraph">
-
-    
-      <button class="accordion__toggle" aria-expanded="false">
-        Career Choices
-      </button>
-
-      <div class="accordion__content">
-        <p>There are many career paths for SCTCC graduates with a degree in Architectural Construction Technology. Our students can work for general contractors, material suppliers, as drafters, or estimators. SCTCC graduates have even found opportunities in architectural and engineering firms, building material centers, and building material manufacturers.</p>
-
-<p>With so many versatile skills that are highly adaptable in the workforce, our students have found jobs with a variety of companies. Students have worked at construction companies, architectural firms, engineering firms, building material suppliers and manufacturers, and some can even work for themselves.</p>
-
-<p>A day in the life of an SCTCC graduate often consists of working as a drafter for an architectural firm while using their skills in using AutoCad and Revit software and utilizing knowledge of floor plans.</p>
-
-<h5>Quick Glance</h5>
-
-<p><strong>Types of Careers</strong></p>
-
-<ul>
-	<li>General contractors&nbsp;</li>
-	<li>Architectural and engineering firms&nbsp;</li>
-	<li>Material suppliers&nbsp;</li>
-	<li>Building material manufacturers&nbsp;</li>
-	<li>Drafters&nbsp;</li>
-	<li>Estimators&nbsp;</li>
-</ul>
-
-<p><strong>Potential Employers</strong></p>
-
-<ul>
-	<li>Construction Companies&nbsp;</li>
-	<li>Architectural Firms&nbsp;</li>
-	<li>Engineering Firms&nbsp;</li>
-	<li>Building Material Suppliers&nbsp;</li>
-	<li>Building Material Manufacturers&nbsp;</li>
-	<li>Self Employed</li>
-</ul>
-
-        <div class="accordion__top-wrapper">
-          <button class="accordion__top">Back to top</button>
-        </div>
-      </div>
-
-    
-  </div>
-
-</div>
-              <div class="field__item">
-
-
-  <div class="accordion__item clearfix paragraph">
-
-    
-      <button class="accordion__toggle" aria-expanded="false">
-        Where Grads Work
-      </button>
-
-      <div class="accordion__content">
-        <p>Our graduates from SCTCC have worked with several successful companies that are leading in Architectural Construction Technology.</p>
-
-<p>We ensure our students have the skills they need to work wherever their path takes them. Whether they want to work with Coldspring, Distinctive Drafting and Design, or Werschay Homes, it is possible. Our graduates have worked with all of those companies and even more.</p>
-
-<h5>Quick Glance</h5>
-
-<ul>
-	<li>Carpentry Contractors Co.</li>
-	<li>Coldspring</li>
-	<li>Distinctive Drafting and Design</li>
-	<li>Littfin Truss</li>
-	<li>Rice Companies</li>
-	<li>Simonson Lumber</li>
-	<li>The Design Team</li>
-</ul>
-
-        <div class="accordion__top-wrapper">
-          <button class="accordion__top">Back to top</button>
-        </div>
-      </div>
-
-    
-  </div>
-
-</div>
-              <div class="field__item">
-
-
-  <div class="accordion__item clearfix paragraph">
-
-    
-      <button class="accordion__toggle" aria-expanded="false">
-        Transfer Options
-      </button>
-
-      <div class="accordion__content">
-        <p>Whether you want to enter the workforce or continue your education, SCTCC is prepared to help you reach your goals. Our general education courses can transfer and are part of the Minnesota Transfer Curriculum (MnTC).</p>
-
-<p><strong><a href="https://www.mnstate.edu/academics/majors/construction-management/" target="_blank">Minnesota State University - Moorhead B.S. Construction Management</a></strong></p>
-
-<p>The B.S. Degree in Construction Management from Minnesota State -Moorhead provides a unique blend of construction knowledge and business know-how.</p>
-
-        <div class="accordion__top-wrapper">
-          <button class="accordion__top">Back to top</button>
-        </div>
-      </div>
-
-    
-  </div>
-
-</div>
-          </div>
-  
-        </div>
-      
-    
-  </div>
-
-</div>
-              <div class="field__item">
-
-
-
-
-  <div class="carousel-img paragraph">
-
-    
-      
-      
-              <div class="carousel-img__items">
-          
-      <div class="field field--name-field-carousel-img-slides field--type-entity-reference-revisions field--label-hidden field__items">
-              <div class="field__item">
-
-
-  <div class="carousel-img_ clearfix paragraph">
-
-    
-              <div class="carousel-img__img">
-          <div class="media media--type-image media--view-mode-carousel-image-feature">
-        
-  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
-              <div class="field__item">    <picture>
-                  <source srcset="https://sctcc.edu/sites/default/files/styles/carousel_image_feature/public/uploads/img/2023-04/ArchitecturalConstruction_2022-21.jpg?h=4e7446d3&amp;itok=tMa9LUKN 1x" media="(min-width: 1025px)" type="image/jpeg" width="1100" height="620"/>
-              <source srcset="https://sctcc.edu/sites/default/files/styles/carousel_image_feature_md/public/uploads/img/2023-04/ArchitecturalConstruction_2022-21.jpg?h=4e7446d3&amp;itok=L6RqJJnT 1x" media="(min-width: 700px)" type="image/jpeg" width="953" height="537"/>
-              <source srcset="https://sctcc.edu/sites/default/files/styles/carousel_image_feature_sm/public/uploads/img/2023-04/ArchitecturalConstruction_2022-21.jpg?h=4e7446d3&amp;itok=qBSrmdFh 1x" type="image/jpeg" width="659" height="371"/>
-                  <img loading="eager" width="1100" height="620" src="https://sctcc.edu/sites/default/files/styles/carousel_image_feature/public/uploads/img/2023-04/ArchitecturalConstruction_2022-21.jpg?h=4e7446d3&amp;itok=tMa9LUKN" alt="Architectural Design student with instructor" typeof="foaf:Image" />
-
-  </picture>
-
-</div>
-          </div>
-
-  </div>
-
-        </div>
-      
-      
-    
-  </div>
-
-</div>
-              <div class="field__item">
-
-
-  <div class="carousel-img_ clearfix paragraph">
-
-    
-              <div class="carousel-img__img">
-          <div class="media media--type-image media--view-mode-carousel-image-feature">
-        
-  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
-              <div class="field__item">    <picture>
-                  <source srcset="https://sctcc.edu/sites/default/files/styles/carousel_image_feature/public/uploads/img/2023-04/ArchitecturalConstruction_2022-13.jpg?h=4fc21ad4&amp;itok=F7ua5XJ6 1x" media="(min-width: 1025px)" type="image/jpeg" width="1100" height="620"/>
-              <source srcset="https://sctcc.edu/sites/default/files/styles/carousel_image_feature_md/public/uploads/img/2023-04/ArchitecturalConstruction_2022-13.jpg?h=4fc21ad4&amp;itok=zBoJFxoK 1x" media="(min-width: 700px)" type="image/jpeg" width="953" height="537"/>
-              <source srcset="https://sctcc.edu/sites/default/files/styles/carousel_image_feature_sm/public/uploads/img/2023-04/ArchitecturalConstruction_2022-13.jpg?h=4fc21ad4&amp;itok=mGq0wyZj 1x" type="image/jpeg" width="659" height="371"/>
-                  <img loading="eager" width="1100" height="620" src="https://sctcc.edu/sites/default/files/styles/carousel_image_feature/public/uploads/img/2023-04/ArchitecturalConstruction_2022-13.jpg?h=4fc21ad4&amp;itok=F7ua5XJ6" alt="Architectural Design student" typeof="foaf:Image" />
-
-  </picture>
-
-</div>
-          </div>
-
-  </div>
-
-        </div>
-      
-      
-    
-  </div>
-
-</div>
-              <div class="field__item">
-
-
-  <div class="carousel-img_ clearfix paragraph">
-
-    
-              <div class="carousel-img__img">
-          <div class="media media--type-image media--view-mode-carousel-image-feature">
-        
-  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
-              <div class="field__item">    <picture>
-                  <source srcset="https://sctcc.edu/sites/default/files/styles/carousel_image_feature/public/uploads/img/2023-04/ArchitecturalConstruction_2022-33.jpg?h=9dc8b1c4&amp;itok=QciLWOwU 1x" media="(min-width: 1025px)" type="image/jpeg" width="1100" height="620"/>
-              <source srcset="https://sctcc.edu/sites/default/files/styles/carousel_image_feature_md/public/uploads/img/2023-04/ArchitecturalConstruction_2022-33.jpg?h=9dc8b1c4&amp;itok=CxjGZba3 1x" media="(min-width: 700px)" type="image/jpeg" width="953" height="537"/>
-              <source srcset="https://sctcc.edu/sites/default/files/styles/carousel_image_feature_sm/public/uploads/img/2023-04/ArchitecturalConstruction_2022-33.jpg?h=9dc8b1c4&amp;itok=0d-SuLec 1x" type="image/jpeg" width="659" height="371"/>
-                  <img loading="eager" width="1100" height="620" src="https://sctcc.edu/sites/default/files/styles/carousel_image_feature/public/uploads/img/2023-04/ArchitecturalConstruction_2022-33.jpg?h=9dc8b1c4&amp;itok=QciLWOwU" alt="Architectural Design student" typeof="foaf:Image" />
-
-  </picture>
-
-</div>
-          </div>
-
-  </div>
-
-        </div>
-      
-      
-    
-  </div>
-
-</div>
-              <div class="field__item">
-
-
-  <div class="carousel-img_ clearfix paragraph">
-
-    
-              <div class="carousel-img__img">
-          <div class="media media--type-image media--view-mode-carousel-image-feature">
-        
-  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
-              <div class="field__item">    <picture>
-                  <source srcset="https://sctcc.edu/sites/default/files/styles/carousel_image_feature/public/uploads/img/2023-04/ArchitecturalConstruction_2022-10.jpg?h=72b1e43d&amp;itok=hERitQT0 1x" media="(min-width: 1025px)" type="image/jpeg" width="1100" height="620"/>
-              <source srcset="https://sctcc.edu/sites/default/files/styles/carousel_image_feature_md/public/uploads/img/2023-04/ArchitecturalConstruction_2022-10.jpg?h=72b1e43d&amp;itok=cKFIgpjx 1x" media="(min-width: 700px)" type="image/jpeg" width="953" height="537"/>
-              <source srcset="https://sctcc.edu/sites/default/files/styles/carousel_image_feature_sm/public/uploads/img/2023-04/ArchitecturalConstruction_2022-10.jpg?h=72b1e43d&amp;itok=LQtQq9bt 1x" type="image/jpeg" width="659" height="371"/>
-                  <img loading="eager" width="1100" height="620" src="https://sctcc.edu/sites/default/files/styles/carousel_image_feature/public/uploads/img/2023-04/ArchitecturalConstruction_2022-10.jpg?h=72b1e43d&amp;itok=hERitQT0" alt="Architectural Design classroom" typeof="foaf:Image" />
-
-  </picture>
-
-</div>
-          </div>
-
-  </div>
-
-        </div>
-      
-      
-    
-  </div>
-
-</div>
-              <div class="field__item">
-
-
-  <div class="carousel-img_ clearfix paragraph">
-
-    
-              <div class="carousel-img__img">
-          <div class="media media--type-image media--view-mode-carousel-image-feature">
-        
-  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
-              <div class="field__item">    <picture>
-                  <source srcset="https://sctcc.edu/sites/default/files/styles/carousel_image_feature/public/uploads/img/2023-04/ArchitecturalConstruction_2022-18.jpg?h=8f2a6ce1&amp;itok=gXGzMTts 1x" media="(min-width: 1025px)" type="image/jpeg" width="1100" height="620"/>
-              <source srcset="https://sctcc.edu/sites/default/files/styles/carousel_image_feature_md/public/uploads/img/2023-04/ArchitecturalConstruction_2022-18.jpg?h=8f2a6ce1&amp;itok=4ZYHZfz_ 1x" media="(min-width: 700px)" type="image/jpeg" width="953" height="537"/>
-              <source srcset="https://sctcc.edu/sites/default/files/styles/carousel_image_feature_sm/public/uploads/img/2023-04/ArchitecturalConstruction_2022-18.jpg?h=8f2a6ce1&amp;itok=JWevSHCV 1x" type="image/jpeg" width="659" height="371"/>
-                  <img loading="eager" width="1100" height="620" src="https://sctcc.edu/sites/default/files/styles/carousel_image_feature/public/uploads/img/2023-04/ArchitecturalConstruction_2022-18.jpg?h=8f2a6ce1&amp;itok=gXGzMTts" alt="Architectural Design students" typeof="foaf:Image" />
-
-  </picture>
-
-</div>
-          </div>
-
-  </div>
-
-        </div>
-      
-      
-    
-  </div>
-
-</div>
-          </div>
-  
-          <div class="carousel-img__pager"></div>
-        </div>
-      
-    
-  </div>
-
-</div>
-              <div class="field__item">
-
-
-
-
-  <div class="gen2col paragraph">
-
-    
-              <h2 class="gen2col__header paragraph__header">
-          Ready to Take the Next Step?
-        </h2>
-      
-              <div class="gen2col__intro paragraph__intro default-anchor">
-          <p>Are you ready to learn more about the Architectural Construction program and being a student at SCTCC?</p>
-        </div>
-      
-              <div class="gen2col__items" data-aos="fade-up" data-aos-duration="300" data-aos-anchor-placement="top-bottom">
-          
-      <div class="field field--name-field-columns-2col-content field--type-entity-reference-revisions field--label-hidden field__items">
-              <div class="field__item">	
-	
-
-
-
-
-	<div class="gen2col__item clearfix paragraph column-with-img column-with-link">
-
-					<div class="column__outer">
-									<div class="column__img-wrapper">
-						<div class="paragraph__img">
-							<div class="media media--type-image media--view-mode-columns-content-block">
-        
-  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
-              <div class="field__item">  <img loading="lazy" src="https://sctcc.edu/sites/default/files/styles/columns_content_block/public/uploads/img/2023-04/MKAD_2022-15.jpg?h=4067b8c7&amp;itok=-VTlcTn4" width="1050" height="824" alt="Marketing design student at laptop with notes" typeof="foaf:Image" class="image-style-columns-content-block" />
-
-
-</div>
-          </div>
-
-  </div>
-
-						</div>
-					</div>
-								<div class="column__content-wrapper">
-					<div class="column__title-outer">
-						<div class="column__title-wrapper">
-															<h3 class="paragraph__title">
-																			<a href="https://sctcc.edu/form/request-for-information">
-											Request Information
-										</a>
-																	</h3>
-							
-													</div>
-					</div>
-											<div class="column__body paragraph__body">
-							<p>Fill out this form to receive useful information that's specific to your program.</p>
-
-						</div>
-									</div>
-			</div>
-
-							<div class="paragraph__link"></div>
-			
-		
-	</div>
-
-</div>
-              <div class="field__item">	
-	
-
-
-
-
-	<div class="gen2col__item clearfix paragraph column-with-img column-with-link">
-
-					<div class="column__outer">
-									<div class="column__img-wrapper">
-						<div class="paragraph__img">
-							<div class="media media--type-image media--view-mode-columns-content-block">
-        
-  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
-              <div class="field__item">  <img loading="lazy" src="https://sctcc.edu/sites/default/files/styles/columns_content_block/public/uploads/img/2023-02/hero%20-%20Northway%20Donut.jpg?h=ed8e1385&amp;itok=f1gQKGae" width="1050" height="824" alt="Front of SCTCC" typeof="foaf:Image" class="image-style-columns-content-block" />
-
-
-</div>
-          </div>
-
-  </div>
-
-						</div>
-					</div>
-								<div class="column__content-wrapper">
-					<div class="column__title-outer">
-						<div class="column__title-wrapper">
-															<h3 class="paragraph__title">
-																			<a href="https://sctcc.edu/meet-admissions-and-recruitment-staff">
-											Connect with the Admissions team
-										</a>
-																	</h3>
-							
-													</div>
-					</div>
-											<div class="column__body paragraph__body">
-							<ul>
-	<li>Call us at<strong> <a href="tel:320-308-5089">320-308-5089</a></strong></li>
-	<li>
-	<p>Email us at&nbsp;<strong><a href="mailto:recruitment@sctcc.edu">recruitment@sctcc.edu</a></strong></p>
-	</li>
-	<li>On campus Monday-Friday, 8 a.m.-4:30 p.m.</li>
-</ul>
-
-						</div>
-									</div>
-			</div>
-
-							<div class="paragraph__link"></div>
-			
-		
-	</div>
-
-</div>
-          </div>
-  
-        </div>
-      
-    
-  </div>
-
-</div>
-              <div class="field__item">
-
-
-
-  <div class="event3col paragraph">
-
-    
-      
-              <div class="event3col__intro paragraph__intro">
-          <p>Visiting campus is an excellent opportunity to learn about SCTCC programs, the application process, and tour the state-of-the-art-labs and classrooms.</p>
-        </div>
-      
-                                                                  <div class="event3col__items--by-tag">
-          <div class="views-element-container"><div class="view view-events view-id-events view-display-id-events3col js-view-dom-id-9c60ad21518ea224552ad1aa3c4d1aac33b20e7ba06cb4e7f8a1b64d4dccd93f">
-  
-    
-      
-      <div class="view-content">
-          <div class="views-row">
-  
-
-
-<article data-history-node-id="9138" about="https://sctcc.edu/about-us/news-events/events/cyclone-tour-192" class="node cards events__card node--type-event node--view-mode-card" data-aos="fade-up" data-aos-duration="300" data-aos-anchor-placement="top-bottom">
-
-  
-  <div class="events__card-content cards__content">
-    <div class="without-link node__content events__card-header cards__header">
-                    <div class="events__card-date cards__date">8.28.26 09:00am</div>
-                    <div class="events__card-time-location cards__location-time">
-                                <div class="events__card-location cards__location"> Main entrance: 1540 Northway Drive, St. Cloud, MN </div>
-                  </div>
-                  
-    </div>
-    <div class="events__card-text cards__text">
-      
-              <h3 class="events__card-title cards__title">
-          <a href="https://sctcc.edu/about-us/news-events/events/cyclone-tour-192" rel="bookmark"><span class="field field--name-title field--type-string field--label-hidden">Cyclone Tour</span>
-</a>
-        </h3>
-            
-    </div>
-  </div>
-
-</article>
-</div>
-    <div class="views-row">
-  
-
-
-<article data-history-node-id="9139" about="https://sctcc.edu/about-us/news-events/events/cyclone-tour-193" class="node cards events__card node--type-event node--view-mode-card" data-aos="fade-up" data-aos-duration="300" data-aos-anchor-placement="top-bottom">
-
-  
-  <div class="events__card-content cards__content">
-    <div class="without-link node__content events__card-header cards__header">
-                    <div class="events__card-date cards__date">9.1.26 01:00pm</div>
-                    <div class="events__card-time-location cards__location-time">
-                                <div class="events__card-location cards__location"> Main entrance: 1540 Northway Drive, St. Cloud, MN </div>
-                  </div>
-                  
-    </div>
-    <div class="events__card-text cards__text">
-      
-              <h3 class="events__card-title cards__title">
-          <a href="https://sctcc.edu/about-us/news-events/events/cyclone-tour-193" rel="bookmark"><span class="field field--name-title field--type-string field--label-hidden">Cyclone Tour</span>
-</a>
-        </h3>
-            
-    </div>
-  </div>
-
-</article>
-</div>
-    <div class="views-row">
-  
-
-
-<article data-history-node-id="9140" about="https://sctcc.edu/about-us/news-events/events/cyclone-tour-204" class="node cards events__card node--type-event node--view-mode-card" data-aos="fade-up" data-aos-duration="300" data-aos-anchor-placement="top-bottom">
-
-  
-  <div class="events__card-content cards__content">
-    <div class="without-link node__content events__card-header cards__header">
-                    <div class="events__card-date cards__date">9.3.26 09:00am</div>
-                    <div class="events__card-time-location cards__location-time">
-                                <div class="events__card-location cards__location"> Main entrance: 1540 Northway Drive, St. Cloud, MN </div>
-                  </div>
-                  
-    </div>
-    <div class="events__card-text cards__text">
-      
-              <h3 class="events__card-title cards__title">
-          <a href="https://sctcc.edu/about-us/news-events/events/cyclone-tour-204" rel="bookmark"><span class="field field--name-title field--type-string field--label-hidden">Cyclone Tour</span>
-</a>
-        </h3>
-            
-    </div>
-  </div>
-
-</article>
-</div>
-
-    </div>
-  
-          </div>
-</div>
-
-        </div>
-        <div class="event3col__more">
-          <a href="https://sctcc.edu/about-us/news-events/events?field_event_tags_target_id%5B31%5D=31" title="More Events" class="cta cta--button">More Events</a>
-        </div>
-      
-    
-  </div>
-
-</div>
-              <div class="field__item">
-
-
-
-
-  <div class="wysiwyg paragraph">
-
-    
-              <div class="wysiwyg__body">
-          <h2>Paying for College</h2>
-
-<p>Students choose SCTCC for a lot of reasons, but saving money is one reason we hear from almost every student at SCTCC.&nbsp;We’ve got a breakdown of the costs for the program, along with information on financial aid and scholarships.</p>
-
-<p>This program requires laptops. Find <a href="https://sctcc.edu/technology-services#laptop">information on required specifications</a></p>
-
-<p>Apply just once and you are considered for all eligible SCTCC scholarships! There are scholarships available specifically for students in the Architectural Construction program.</p>
-
-<center><a class="cta--button" data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="9679f234-697e-4ccd-aa72-e81974942450" href="https://sctcc.edu/program-costs">Program Costs</a>&nbsp; &nbsp;<a class="cta--button" data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="68c45a9e-c796-4e42-97d9-c1b1c6afdfc5" href="https://sctcc.edu/applying-financial-aid">Applying for Financial Aid</a>&nbsp; &nbsp;<a class="cta--button" data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="cc429e50-6b30-4b49-b9e0-457bf1c18d40" href="https://sctcc.edu/scholarships">SCTCC Scholarships</a></center>
-
-<div class="align-center media media--type-image media--view-mode-default">
-        
-  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
-              <div class="field__item">  <img loading="lazy" src="https://sctcc.edu/sites/default/files/uploads/img/2023-07/best-value-2023.png" width="2000" height="622" alt="SCTCC is the best value with tuition at $6740. MinnState university is $11479. UofM is $16308. MN private university is $53497. *Based on average 2026-27 tuition &amp; fees for 15 credits or full-time for an academic year. Some institutions charge additional fees. Fees vary by program. For exact costs, contact the institution that interests you. Average costs do not include room &amp; board." typeof="foaf:Image">
-
-</div>
-          </div>
-
-  </div>
-
-
-        </div>
-      
-    
-  </div>
-
-</div>
-              <div class="field__item">
-
-
-
-
-
-  <div class="wysiwyg content-narrow paragraph">
-
-    
-              <div class="wysiwyg__body">
-          
-
-<figure role="group" class="caption caption-drupal-media align-center">
-
-<div class="wysiwyg-remote-video video video--inline clearfix">
-	<div class="video__wrapper">
-					<div class="video__cover">
-				
-            <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">  <img loading="lazy" src="https://sctcc.edu/sites/default/files/styles/wysiwyg_full/public/uploads/vid/cover/2023-04/architecture-frame.jpg?h=b4a7ba09&amp;itok=IYfQ-2Li" width="800" height="451" alt="Architectural Lab Tour" typeof="foaf:Image" class="image-style-wysiwyg-full">
-
-
-</div>
-      
-				<button class="video__play">
-					Play Video<span class="video__play-accent"></span>
-				</button>
-			</div>
-		
-					<div class="video__embed">
-				
-            <div class="field field--name-field-media-oembed-video field--type-string field--label-hidden field__item"><iframe src="https://sctcc.edu/media/oembed?url=https%3A//player.vimeo.com/video/816298397%3Fh%3D5ceb0e71c1%26amp%3Bbadge%3D0%26amp%3Bautopause%3D0%26amp%3Bplayer_id%3D0%26amp%3Bapp_id%3D58479&amp;max_width=0&amp;max_height=0&amp;hash=3Wn2SCFGzphLngpV6KU2XOzPYtaCz1N4BVdDHtWP6NI" width="426" height="240" class="media-oembed-content" loading="eager" title="SCTCC Architecture Virtual Tour"></iframe>
-</div>
-      
-			</div>
-			</div>
-</div>
-
-<figcaption>Virtual Lab Tour</figcaption>
-</figure>
-
-
-        </div>
-      
-    
-  </div>
-
-</div>
-              <div class="field__item">
-
-
-
-
-  <div class="accordion content-narrow paragraph">
-
-    
-              <h2 class="paragraph__header">
-          Program Info for Current Students
-        </h2>
-      
-      
-      <div class="accordion__all">
-        <button class="accordion__expand-all">Expand all</button>
-        <button class="accordion__collapse-all js-disabled" aria-expanded="false"
-                disabled>Collapse all</button>
-      </div>
-
-              <div class="accordion__items">
-          
-      <div class="field field--name-field-accordion-items field--type-entity-reference-revisions field--label-hidden field__items">
-              <div class="field__item">
-
-
-  <div class="accordion__item clearfix paragraph">
-
-    
-      <button class="accordion__toggle" aria-expanded="false">
-        Laptop Computer Requirements
-      </button>
-
-      <div class="accordion__content">
-        <p>Architectural Construction program has a laptop requirement.</p>
-
-<h5><a href="https://sctcc.edu/technology-services#laptop">Find information on required laptop specifications for the program.</a></h5>
-
-        <div class="accordion__top-wrapper">
-          <button class="accordion__top">Back to top</button>
-        </div>
-      </div>
-
-    
-  </div>
-
-</div>
-              <div class="field__item">
-
-
-  <div class="accordion__item clearfix paragraph">
-
-    
-      <button class="accordion__toggle" aria-expanded="false">
-        Related Links
-      </button>
-
-      <div class="accordion__content">
-        <p><a class="cta--link" href="https://www.cmbaonline.org/" rel="noopener" target="_blank">Central MN Builder's Association</a></p>
-
-        <div class="accordion__top-wrapper">
-          <button class="accordion__top">Back to top</button>
-        </div>
-      </div>
-
-    
-  </div>
-
-</div>
-              <div class="field__item">
-
-
-  <div class="accordion__item clearfix paragraph">
-
-    
-      <button class="accordion__toggle" aria-expanded="false">
-        Clubs &amp; Organizations
-      </button>
-
-      <div class="accordion__content">
-        <p>Central Minnesota Builders Association Student Chapter</p>
-
-<p><a class="cta--link" data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="110dbc13-17ed-485b-bf54-cd7e4a849ac7" href="https://sctcc.edu/clubs">SCTCC Student Clubs</a></p>
-
-        <div class="accordion__top-wrapper">
-          <button class="accordion__top">Back to top</button>
-        </div>
-      </div>
-
-    
-  </div>
-
-</div>
-          </div>
-  
-        </div>
-      
-    
-  </div>
-
-</div>
-              <div class="field__item">
-
-
-  <div class="contact-listing paragraph">
-          <div class="contact-listing__container">
-        <div class="contact-listing__top">
-                      <h2 class="contact-listing__heading paragraph__header">
-              Architectural Construction Instructor
-            </h2>
+            <div class="site-header__nav-search">
+                <div id="navSearchCollapse" class="nav-search__collapse collapse">
+                    <div class="nav-search__container">
+                        <div class="nav-search__content">
+                            <div class="nav-search__form-wrap autosuggest-search">
+                                <p class="h4">What can we find for you?</p>
+                                <div class="autosuggest-search__wrap" data-nav-autosuggest>
+                                    <form class="form-inline nav-search__form" action="/search/" ref="searchForm" data-termssearchtype="AutoComplete">
+
+                                        <label class="visually-hidden" for="siteSearchInput">Search</label>
+                                        <input id="siteSearchInput"
+                                               name="q"
+                                               class="form-control form-control-lg nav-search__input"
+                                               type="text"
+                                               placeholder="Enter keyword(s)"
+                                               aria-label="Search site"
+                                               autocomplete="off"
+                                               v-model="prefix">
+
+                                        <button class="btn" type="submit" id="searchSubmit">
+                                            <span class="visually-hidden">Search</span>
+                                            <img src="https://www.mnsu.edu/maverick/images/icon-search.svg" alt="Search site">
+                                        </button>
+                                    </form>
+                                    <div class="nav-search__suggestions search-suggestions" v-bind:class="{ 'd-none': hideSuggestions }" v-cloak>
+                                        <div class="search-suggestions__section" v-if="loading">
+                                            <div class="spinner">
+                                                <span class="visually-hidden">Loading...</span>
+                                            </div>
+                                        </div>
+                                        <div class="search-suggestions__section" v-if="!loading && terms.length < 1 && pages.length < 1">
+                                            <ul class="program-listing-search__suggestions-list search-suggestions__list">
+                                                <li>
+                                                    <p>No results found</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="search-suggestions__section" v-if="terms.length > 0">
+                                            <ul class="program-listing-search__suggestions-list search-suggestions__list">
+                                                <li v-for="term in terms">
+                                                    <a href="#" @click="searchForTerm" v-html="term"></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="search-suggestions__section" v-if="pages.length > 0">
+                                            <span class="meta">Programs</span>
+                                            <ul class="program-listing-search__suggestions-list search-suggestions__list">
+                                                <li v-for="page in pages">
+                                                    <a href="#" @click="searchForTerm" v-html="page"></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-        <div class="contact-listing__contact">
-                      
-      <div class="field field--name-field-r-selected-contact field--type-entity-reference field--label-hidden field__items">
-              <div class="field__item">
-
-<article data-history-node-id="4652" about="https://sctcc.edu/about-us/faculty-staff-directory/roy-kollar" class="node node--type-directory node--view-mode-contact-listing-w-image" data-aos="fade-up" data-aos-duration="300" data-aos-anchor-placement="top-bottom">
-  <div class="node__content">
-    <div class="node__content directory__contact-listing directory__contact-listing-w-image faculty-card">
-      <div class="faculty-card__heading"></div>
-      <div class="faculty-card__body">
-
-                  <div class="faculty-card__image">
-            
-            <div class="field field--name-field-directory-image field--type-entity-reference field--label-hidden field__item">  <img loading="lazy" src="https://sctcc.edu/sites/default/files/styles/directory_small/public/uploads/img/2025-05/Roy%20Kollar%201.jpg?h=7ba0ebd9&amp;itok=j9y6qTNc" width="200" height="250" alt="Roy Kollar" typeof="foaf:Image" class="image-style-directory-small" />
-
-
-</div>
-      
-          </div>
-        
-        <div class="directory-list-w-img__content">
-          <div class="contact-listing__display--name faculty-card__cta--link">
-            <a href="https://sctcc.edu/about-us/faculty-staff-directory/roy-kollar">
-              
-            <div class="field field--name-field-directory-display-name field--type-string field--label-hidden field__item">  <p>Roy Kollar</p>
-
-
-</div>
-      
-            </a>
-          </div>
-
-                      <div class="contact-listing__subtitle faculty-card__subtitle">
-              
-            <div class="field field--name-field-directory-job-title field--type-string field--label-hidden field__item">  <p>Architectural Drafting Technology Instructor</p>
-
-
-</div>
-      
+                        </div>
+                    </div>
+                </div>
             </div>
-                                <div class="contact-listing__link faculty-card__link">
-              
-            <div class="field field--name-field-directory-email field--type-email field--label-hidden field__item"><a href="mailto:roy.kollar@sctcc.edu">roy.kollar@sctcc.edu</a></div>
-      
-            </div>
-                                      </div>
-      </div>
-    </div>
-  </div>
-</article>
-</div>
-          </div>
-  
-                  </div>
-      </div>
-      </div>
-</div>
-              <div class="field__item">
 
-
-
-  <div class="news3up paragraph">
-
-    
-              <h2 class="news3up__header">
-          Good Stuff
-        </h2>
-      
-      
-                                                                  <div class="news3up__items--by-tag">
-          <div class="views-element-container"><div class="view news__listing view-news-list view-id-news_list view-display-id-news3up js-view-dom-id-4ad01e9941e1100cec1b576549331cfae6be84f1d206597b084f057344862647">
-  
-    
-  
-  
-      <div class="view-content">
-          <div class="views-row">
-
-
-<article data-history-node-id="3032" about="https://sctcc.edu/about-us/news-events/news/local-builderdevelopers-spirit-lives-through-scholarship" class="node cards content-narrow news__card node--type-news node--view-mode-card-small-image">
-
-    
-  <div class="news__card-content cards__content">
-    <div class="node__content news__card-header cards__header">
-              <div class="news__card-date cards__date">10.04.21</div>
-                    <div class="news__card-author cards__author"> Kate Wallace </div>
-          </div>
-
-          <div class="news__card-image cards__image">
-        <div class="media media--type-image media--view-mode-news-listing-card">
-        
-  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
-              <div class="field__item">  <img loading="lazy" src="https://sctcc.edu/sites/default/files/styles/news_listing_card/public/uploads/img/2023-05/reker-webhead.jpg?itok=oTCioWNP" width="699" height="259" alt="Karen Reker and Martina Saarela" typeof="foaf:Image" class="image-style-news-listing-card" />
-
-
-</div>
-          </div>
-
-  </div>
-
-      </div>
-        <div class="news__card-text cards__text">
-          <h3 class="news__card-title cards__title">
-        <a href="https://sctcc.edu/about-us/news-events/news/local-builderdevelopers-spirit-lives-through-scholarship" rel="bookmark"><span class="field field--name-title field--type-string field--label-hidden">Local Builder/Developer&#039;s Spirit Lives On Through Scholarship</span>
-</a>
-      </h3>
-        
-          <div class="news__card-summary cards__summary"> 
-                
-            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">  When Karen Reker set up a scholarship in her late husband’s name, she didn’t know that the first recipient of the scholarship would share several commonalities with him, even right down to names. This...
-
-</div>
-      
-      </div>
-      </div>
-</article>
-</div>
-    <div class="views-row">
-
-
-<article data-history-node-id="642" about="https://sctcc.edu/news/04-22-2019/first-year-architectural-student-designs-house-habitat-humanity-build" class="node cards content-narrow news__card node--type-news node--view-mode-card-small-image">
-
-    
-  <div class="news__card-content cards__content">
-    <div class="node__content news__card-header cards__header">
-              <div class="news__card-date cards__date">04.22.19</div>
-                    <div class="news__card-author cards__author"> Matt Klinkhammer </div>
-          </div>
-
-          <div class="news__card-image cards__image">
-        <div class="media media--type-image media--view-mode-news-listing-card">
-        
-  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
-              <div class="field__item">  <img loading="lazy" src="https://sctcc.edu/sites/default/files/styles/news_listing_card/public/uploads/img/2023-04/Habitat.jpg?itok=ORhCq9xD" width="699" height="259" alt="Architectural Construction Class" typeof="foaf:Image" class="image-style-news-listing-card" />
-
-
-</div>
-          </div>
-
-  </div>
-
-      </div>
-        <div class="news__card-text cards__text">
-          <h3 class="news__card-title cards__title">
-        <a href="https://sctcc.edu/news/04-22-2019/first-year-architectural-student-designs-house-habitat-humanity-build" rel="bookmark"><span class="field field--name-title field--type-string field--label-hidden">First-Year Architectural Student Designs House for Habitat for Humanity Build</span>
-</a>
-      </h3>
-        
-          <div class="news__card-summary cards__summary"> 
-                
-            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">  First-year Architectural Construction Technology student, Brianna Scherbing, was surprised to learn that a house she designed will be built by Central Minnesota Habitat for Humanity. Scherbing’s...
-
-</div>
-      
-      </div>
-      </div>
-</article>
-</div>
-    <div class="views-row">
-
-
-<article data-history-node-id="660" about="https://sctcc.edu/news/11-20-2018/experience-not-required-architecture-program" class="node cards content-narrow news__card node--type-news node--view-mode-card-small-image">
-
-    
-  <div class="news__card-content cards__content">
-    <div class="node__content news__card-header cards__header">
-              <div class="news__card-date cards__date">11.20.18</div>
-                    <div class="news__card-author cards__author"> Kate Wallace </div>
-          </div>
-
-          <div class="news__card-image cards__image">
-        <div class="media media--type-image media--view-mode-news-listing-card">
-        
-  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
-              <div class="field__item">  <img loading="lazy" src="https://sctcc.edu/sites/default/files/styles/news_listing_card/public/uploads/img/2023-04/ArchitecturalConstruction_October2016_008.jpeg?itok=hYbXXY2E" width="699" height="259" alt="student drafting architectural plans" typeof="foaf:Image" class="image-style-news-listing-card" />
-
-
-</div>
-          </div>
-
-  </div>
-
-      </div>
-        <div class="news__card-text cards__text">
-          <h3 class="news__card-title cards__title">
-        <a href="https://sctcc.edu/news/11-20-2018/experience-not-required-architecture-program" rel="bookmark"><span class="field field--name-title field--type-string field--label-hidden">Experience not required for Architecture program</span>
-</a>
-      </h3>
-        
-          <div class="news__card-summary cards__summary"> 
-                
-            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">  When you’re ready to take the next step and start applying to a program at SCTCC, experience in the field isn’t necessary. Jed Johnson, SCTCC Architectural Construction Technology instructor, says...
-
-</div>
-      
-      </div>
-      </div>
-</article>
-</div>
-
-    </div>
-  
+        <div class="site-header__cta-group-desktop js-cta-group--desktop-parking">
+                <div class="site-header__cta-group">
+                    <ul>
+                            <li>
+                                <a class="btn btn-utility" href="https://www.mnsu.edu/request-information/">Request Info</a>
+                            </li>
+                            <li>
+                                <a class="btn btn-utility" href="https://www.mnsu.edu/visit/">Visit Campus</a>
+                            </li>
+                            <li>
+                                <a class="btn btn-primary" href="https://www.mnsu.edu/become-a-student/apply/">Apply</a>
+                            </li>
+                    </ul>
+                </div>
         </div>
-</div>
-
-        </div>
-                  <div class="news3up__more">
-            <a href="https://sctcc.edu/about-us/news-events/news?tags=50" title="More News" class="cta cta--button">More News</a>
-          </div>
-              
-    
-  </div>
-
-</div>
-          </div>
-  
-      <div class="program__more-programs paragraph">
-        <h2 class="program__more-heading paragraph__header">More Like Architectural Construction Technology</h2>
-        <div class="program__more-content">
-          <div class="program__more-programs-wrapper">
+    </div>
+</header>
+<div class="l-canvas slide-over-transition">
+    <main class="main-wrap homepage" id="main">
             
-      <div class="field field--name-field-similar-progs field--type-entity-reference field--label-hidden field__items">
-              <div class="field__item">
 
+            
 
+            
 
-<article data-history-node-id="471" about="https://sctcc.edu/degrees-programs/carpentry" class="program card node node--type-program node--view-mode-card-w-image" data-aos="fade-up" data-aos-duration="300" data-aos-anchor-placement="top-bottom">
-  <div class="program__card">
-    <div class="program__image">
-      <div class="media media--type-image media--view-mode-program-filter-cards">
+<section class="homepage-hero homepage-hero--with-gradient">
+    <div class="homepage-hero__wrap">
+            <div class="homepage-hero__image-wrap">
+                <picture>
+                    <source srcset="https://www.mnsu.edu/globalassets/maverick/homepageblocks/homepage_archwalkthroug_herodesktop_1920.jpg" media="(min-width: 576px)">
+                    <img class="homepage-hero__image" src="https://www.mnsu.edu/globalassets/maverick/homepageblocks/homepage_archwalkthroug_heromobile_sized.jpg" alt="Aerial view of new Mavs walking through the Arch on Campus at the welcome event" />
+                </picture>
+            </div>
+        <h1 class="homepage-hero__heading display-2">
+Big ideas.<br />Real-world thinking.<br /><strong>Inspired action.</strong></h1>
+    </div>
+</section>
         
-  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
-              <div class="field__item">    <picture>
-                  <source srcset="https://sctcc.edu/sites/default/files/styles/program_filter_cards/public/uploads/img/2023-04/Carpentry10-22_046.jpg?h=38822719&amp;itok=XlEuFrAM 1x" media="(min-width: 1025px)" type="image/jpeg" width="400" height="400"/>
-              <source srcset="https://sctcc.edu/sites/default/files/styles/program_filter_cards_md/public/uploads/img/2023-04/Carpentry10-22_046.jpg?h=38822719&amp;itok=qI7F1rBV 1x" media="(min-width: 700px)" type="image/jpeg" width="305" height="264"/>
-              <source srcset="https://sctcc.edu/sites/default/files/styles/program_filter_cards_sm/public/uploads/img/2023-04/Carpentry10-22_046.jpg?h=38822719&amp;itok=QfKOtsiM 1x" type="image/jpeg" width="659" height="530"/>
-                  <img loading="eager" width="400" height="400" src="https://sctcc.edu/sites/default/files/styles/program_filter_cards/public/uploads/img/2023-04/Carpentry10-22_046.jpg?h=38822719&amp;itok=XlEuFrAM" alt="Carpentry students working on roof" typeof="foaf:Image" />
-
-  </picture>
-
-</div>
-          </div>
-
-  </div>
-
-    </div>
-    <div class="program__content">
-      <div class="program__content-inner">
-                  <h3 class="program__title">
-            <a href="https://sctcc.edu/degrees-programs/carpentry" >
-              <span class="field field--name-title field--type-string field--label-hidden">Carpentry</span>
-
-            </a>
-          </h3>
-                <div class="program__types">
-                      <span>Diploma</span>
-                  </div>
-      </div>
-    </div>
-  </div>
-  <div class="program__link">
-  </div>
-</article>
-</div>
-              <div class="field__item">
 
 
 
-<article data-history-node-id="489" about="https://sctcc.edu/degrees-programs/computer-aided-mechanical-design" class="program card node node--type-program node--view-mode-card-w-image" data-aos="fade-up" data-aos-duration="300" data-aos-anchor-placement="top-bottom">
-  <div class="program__card">
-    <div class="program__image">
-      <div class="media media--type-image media--view-mode-program-filter-cards">
-        
-  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
-              <div class="field__item">    <picture>
-                  <source srcset="https://sctcc.edu/sites/default/files/styles/program_filter_cards/public/uploads/img/2023-05/1%20crop%20Mechanical_design_2022-14.jpg?h=9aff6af0&amp;itok=XQAILQS_ 1x" media="(min-width: 1025px)" type="image/jpeg" width="400" height="400"/>
-              <source srcset="https://sctcc.edu/sites/default/files/styles/program_filter_cards_md/public/uploads/img/2023-05/1%20crop%20Mechanical_design_2022-14.jpg?h=9aff6af0&amp;itok=Bvr2W5z7 1x" media="(min-width: 700px)" type="image/jpeg" width="305" height="264"/>
-              <source srcset="https://sctcc.edu/sites/default/files/styles/program_filter_cards_sm/public/uploads/img/2023-05/1%20crop%20Mechanical_design_2022-14.jpg?h=9aff6af0&amp;itok=pSl2eiRF 1x" type="image/jpeg" width="659" height="530"/>
-                  <img loading="eager" width="400" height="400" src="https://sctcc.edu/sites/default/files/styles/program_filter_cards/public/uploads/img/2023-05/1%20crop%20Mechanical_design_2022-14.jpg?h=9aff6af0&amp;itok=XQAILQS_" alt="Mechanical Design student" typeof="foaf:Image" />
 
-  </picture>
+    <section class="program-search-block" data-program-autosuggest>
+        <div class="program-search-block__grid">
+            <form class="program-search__form" action="https://www.mnsu.edu/programs/" ref="searchForm" data-contenttypestring="Web.Models.Maverick.Pages.MavProgramPage" data-termssearchtype="Keywords">
 
-</div>
-          </div>
-
-  </div>
-
-    </div>
-    <div class="program__content">
-      <div class="program__content-inner">
-                  <h3 class="program__title">
-            <a href="https://sctcc.edu/degrees-programs/computer-aided-mechanical-design" >
-              <span class="field field--name-title field--type-string field--label-hidden">Mechanical Design Engineering Technology</span>
-
-            </a>
-          </h3>
-                <div class="program__types">
-                      <span>AAS</span>
-                      <span>Diploma</span>
-                  </div>
-      </div>
-    </div>
-  </div>
-  <div class="program__link">
-  </div>
-</article>
-</div>
-          </div>
-  
-          </div>
-          <div class="program__more-pathway-links">
-                          <div class="program__more-pathway">
-                <a href="https://sctcc.edu/construction" hreflang="en">Trades in Construction</a>
-              </div>
-                                  </div>
+                <label for="programSearch">Find Your Program Today</label>
+                <div class="program-search-block__search-wrap autosuggest-search">
+                    <div class="autosuggest-search__wrap">
+                        <div class="program-search__input-wrap">
+                            <input type="text" id="programSearch" name="q" placeholder="Enter a program keyword" autocomplete="off" v-model="prefix">
+                            <button class="btn program-search__btn" type="submit">
+                                <span class="visually-hidden">Search</span>
+                                <img class="program-search__icon" src="https://www.mnsu.edu/maverick/images/icon-search.svg" alt="Search MSU Programs">
+                            </button>
+                        </div>
+                        <div class="program-listing__suggestions search-suggestions" v-bind:class="{ 'd-none': hideSuggestions }" v-cloak>
+                            <div class="search-suggestions__section" v-if="loading">
+                                <div class="spinner">
+                                    <span class="visually-hidden">Loading...</span>
+                                </div>
+                            </div>
+                            <div class="search-suggestions__section" v-if="!loading && terms.length < 1 && pages.length < 1">
+                                <ul class="program-listing-search__suggestions-list search-suggestions__list">
+                                    <li>
+                                        <p>No results found</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="search-suggestions__section" v-if="terms.length > 0">
+                                <ul class="program-listing-search__suggestions-list search-suggestions__list">
+                                    <li v-for="term in terms">
+                                        <a href="#" @click="searchForTerm" v-html="term"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="search-suggestions__section" v-if="pages.length > 0">
+                                <span class="meta">Programs</span>
+                                <ul class="program-listing-search__suggestions-list search-suggestions__list">
+                                    <li v-for="page in pages">
+                                        <a href="#" @click="searchForTerm" v-html="page"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+                <div class="program-search-block__browse-wrap">
+                        <p><a href="https://www.mnsu.edu/find-a-program/undergraduate-degrees/">Browse Undergraduate</a></p>
+                        <p><a href="https://www.mnsu.edu/find-a-program/graduate-programs/">Browse Graduate and Post Graduate</a></p>
+                </div>
         </div>
-      </div>
+    </section>
+
+<section class="column-promo-block">
+    <div class="container-fluid">
+        <div class="block-header">
+            
+
+        </div>
+            <div class="column-promo-block__body">
+
+<div class="promo-card">
+        <img class="promo-card__image" width="453" height="255" loading="lazy" src="https://www.mnsu.edu/globalassets/maverick/homepageblocks/hompage_columnpromoblock.jpg" alt="student on skateboard on campus with autumn colors in the background" />
+    <div class="promo-card__body rich-text-area">
+            <h3 class="h4">Become a Student</h3>
+        
+<p>Minnesota State University, Mankato is where your next chapter begins. Start your journey today.</p>
     </div>
-
-  </div>
-</article>
-
-  </div>
-
-  </div>
-
-      </div>
+        <div class="promo-card__footer">
+            <a class="arrow-link" href="https://www.mnsu.edu/become-a-student/">Become a Student</a>
+        </div>
+</div>
+<div class="promo-card">
+        <img class="promo-card__image" width="453" height="255" loading="lazy" src="https://www.mnsu.edu/globalassets/maverick/homepageblocks/homepage_visit_columnpromoblock.jpg" alt="two students walking on campus with a large campus building in the background" />
+    <div class="promo-card__body rich-text-area">
+            <h3 class="h4">Visit Mankato</h3>
+        
+<p>Experience the vibrant campus life at MSU and immerse yourself in the dynamic Mankato community. Come see for yourself!</p>
     </div>
+        <div class="promo-card__footer">
+            <a class="arrow-link" href="https://www.mnsu.edu/visit/">Visit Us!</a>
+        </div>
+</div>
+<div class="promo-card">
+        <img class="promo-card__image" width="453" height="255" loading="lazy" src="https://www.mnsu.edu/globalassets/maverick/homepageblocks/homepage_classroom_columnpromo.jpg" alt="four students sitting in the finance room with the stock market ticker in the background" />
+    <div class="promo-card__body rich-text-area">
+            <h3 class="h4">Take the Next Step</h3>
+        
+<p>Discover your ideal pathway with 130+ undergraduate and 80+ graduate programs to fuel your big ideas.</p>
     </div>
+        <div class="promo-card__footer">
+            <a class="arrow-link" href="https://www.mnsu.edu/find-a-program/">Program Pathways</a>
+        </div>
+</div>            </div>
+    </div>
+</section>    <section class="image-promo-block image-promo-block--purple">
+        <div class="image-promo-block__image-wrap">
+                <img class="image-promo-block__image" width="576" height="445" src="https://www.mnsu.edu/globalassets/maverick/homepageblocks/homepage_msulife_imagepromoblock.jpg" alt="Four students taking a selfie together in the Centennial Student Union" loading="lazy" />
+        </div>
+        <div class="image-promo-block__body">
+<h2 class="image-promo-block__heading">The Student Experience</h2>            
+<p>Discover your Maverick experience beyond the classroom! Get involved with student events, game days, clubs, organizations, and a variety of dining and living options. Find your community today!</p>
+                <div class="block-cta-wrap">
+                        <a class="arrow-link" href="https://www.mnsu.edu/life-at-msu/">Life at MSU</a>
+                </div>
+        </div>
+    </section>
+    <section class="image-promo-block image-promo-block--orange image-promo-block--image-right">
+        <div class="image-promo-block__image-wrap">
+                <img class="image-promo-block__image" width="576" height="445" src="https://www.mnsu.edu/globalassets/maverick/homepageblocks/hompage_mavstory_imagepromoblock.jpg" alt="Three students walking on campus in their Maverick gear, backpacks, and talking and laughing" loading="lazy" />
+        </div>
+        <div class="image-promo-block__body">
+<h2 class="image-promo-block__heading">The Maverick Story</h2>            
+<p><span data-olk-copy-source="MessageBody">Mavericks find their place on campus. They actively engage in classes, programs and clubs to foster community and enhance their university experience.</span></p>
+                <div class="block-cta-wrap">
+                        <a class="arrow-link" href="https://www.mnsu.edu/request-information/">Request Information</a>
+                </div>
+        </div>
+    </section>
 
-    
-  </main>
-
-  <footer role="contentinfo">
+<section class="fast-facts-block">
+    <div class="container-fluid">
+            <div class="block-header">
+                <h2 class="with-tic-mark-large-centered">The Value of MSU</h2>
                 
-          <div class="sock">
-        <div class="sock__image">
-          
-            <div class="field field--name-field-sock-bkg-img field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="https://sctcc.edu/sites/default/files/styles/footer_sock/public/wrapper/2025-10/FALL-2025_web_3.jpg?h=a01aad3d&amp;itok=4hzCNYij 1x" media="(min-width: 1025px)" type="image/jpeg" width="1600" height="709"/>
-              <source srcset="https://sctcc.edu/sites/default/files/styles/footer_sock/public/wrapper/2025-10/FALL-2025_web_3.jpg?h=a01aad3d&amp;itok=4hzCNYij 1x" media="(min-width: 700px)" type="image/jpeg" width="1600" height="709"/>
-              <source srcset="https://sctcc.edu/sites/default/files/styles/footer_sock_sm/public/wrapper/2025-10/FALL-2025_web_3.jpg?h=a01aad3d&amp;itok=KAKuUdW2 1x" type="image/jpeg" width="320" height="350"/>
-                  <img loading="eager" width="1600" height="709" src="https://sctcc.edu/sites/default/files/styles/footer_sock/public/wrapper/2025-10/FALL-2025_web_3.jpg?h=a01aad3d&amp;itok=4hzCNYij" alt="students walking outside door one with fall colors visible" typeof="foaf:Image" />
+<p>At MSU, we ignite a passion for lifelong learning by making academic excellence accessible to all. Our continuing education and professional development programs empower graduates to thrive throughout their life&rsquo;s journey.</p>
+<p><a class="arrow-link" title="The Value of MSU" href="https://www.mnsu.edu/become-a-student/value-of-msu/">The Value of MSU</a></p>
+            </div>
+        <div class="fast-facts-block__body">
+            
 
-  </picture>
-
-</div>
-      
-        </div>
-        <div class="sock__content">
-          <h2 class="sock__title">
-            Education
-            <span class="sock__title--styled">
-              That Matters
+<div class="fast-facts-block__col">
+    <div class="fast-facts-block__fact">
+        <div class="fast-facts-block__stat">
+            <span class="fast-facts-block__number">
+                130
             </span>
-          </h2>
-          <div class="sock__cta">
-            
-  <div class="field__item">
-    <a href="https://sctcc.edu/admissions">Apply for Free</a>
-  </div>
-  <div class="field__item">
-    <a href="https://sctcc.edu/visit">Tour Campus</a>
-  </div>
-  <div class="field__item">
-    <a href="https://sctcc.edu/form/request-for-information">Request Info</a>
-  </div>
-
-          </div>
         </div>
-      </div>
-                    <div class="footer-utility-links">
-        <div class="footer-utility-inner">
-          <button class="site-footer__button">Back to Top</button>
-          
-  
-      
-            <div class="field field--name-field-site-wrapper-utility-link field--type-link field--label-hidden field__item"><a href="https://sctcc.edu/accessibility-services">Any SCTCC student with a disability that impacts their education or ability to fully participate on campus is eligible to apply for Accessibility Services.</a></div>
-      
-  
-
-
+        <div class="fast-facts-block__caption">
+            Undergraduate Degree Programs
         </div>
-      </div>
-    
-    <div class="footer-main">
-      <div class="footer-inner">
-                <div class="footer-main__column footer-main__column--first">
-          <div class="footer-main__logo">
-            <div class="footer-main__img">
-              <a href="/" rel="home">
-                <img src="https://sctcc.edu/sites/default/files/wrapper/2023-04/sctcc-footer-logo.svg"
-                    alt="SCTCC logo"
-                    width="145"
-                />
-              </a>
-            </div>
-
-                          <div class="footer-main__social-media">
-                
-  
-                <a class="main--footer_first-column_social-profiles_item social-icons social-icons-Instagram"
-         href="https://www.instagram.com/sctcc"
-         target="_blank"
-      >
-        <span class="visually-hidden">Instagram</span>
-      </a>
-    
-  
-                <a class="main--footer_first-column_social-profiles_item social-icons social-icons-Facebook"
-         href="https://www.facebook.com/sctcc"
-         target="_blank"
-      >
-        <span class="visually-hidden">Facebook</span>
-      </a>
-    
-  
-                <a class="main--footer_first-column_social-profiles_item social-icons social-icons-LinkedIn"
-         href="https://www.linkedin.com/school/sctcc"
-         target="_blank"
-      >
-        <span class="visually-hidden">LinkedIn</span>
-      </a>
-    
-  
-                <a class="main--footer_first-column_social-profiles_item social-icons social-icons-YouTube"
-         href="https://www.youtube.com/videosctcc"
-         target="_blank"
-      >
-        <span class="visually-hidden">YouTube</span>
-      </a>
-    
-
-
-              </div>
-                      </div>
-
-                                        
-          <div class="footer-main__content-info">
-            <address class="footer-address">
-              <p>1540 Northway Drive<br />
-St. Cloud, MN 56303</p>
-
-            </address>
-            <div class="footer-phone">
-              <a href="tel:+1 (800) 222-1009">+1 (800) 222-1009</a>
-            </div>
-            <div class="footer-email">
-              <a href="mailto:recruitment@sctcc.edu">recruitment@sctcc.edu</a>
-            </div>
-          </div>
-        </div>
-                
-                  <div class="footer-main__column footer-main__column--last">
-            
-  
-      
-  <div class="main--footer_third-column_link-item">
-    <a href="https://sctcc.edu/accessibility-statement">Accessibility Statement</a>
-  </div>
-
-
-
-  
-  
-      
-  <div class="main--footer_third-column_link-item">
-    <a href="https://sctcc.edu/employment-opportunities">Careers at SCTCC</a>
-  </div>
-
-
-
-  
-  
-      
-  <div class="main--footer_third-column_link-item">
-    <a href="https://sctcc.edu/campus-maps">Campus Hours, Directions &amp; Maps</a>
-  </div>
-
-
-
-  
-  
-      
-  <div class="main--footer_third-column_link-item">
-    <a href="https://sctcc.edu/contact-us">Contact Us</a>
-  </div>
-
-
-
-  
-  
-      
-  <div class="main--footer_third-column_link-item">
-    <a href="https://mnscu.sharepoint.com/sites/SCTCC">Intranet - Employee Portal</a>
-  </div>
-
-
-
-  
-  
-      
-  <div class="main--footer_third-column_link-item">
-    <a href="https://sctcc.edu/report-it">Just Report It</a>
-  </div>
-
-
-
-  
-  
-      
-  <div class="main--footer_third-column_link-item">
-    <a href="https://sctcc.edu/about-us/leadership/policies-and-procedures/s16-nondiscrimination-and-harassment-policy">Nondiscrimination Policy</a>
-  </div>
-
-
-
-  
-  
-      
-  <div class="main--footer_third-column_link-item">
-    <a href="https://sctcc.edu/online-privacy-statement">Online Privacy</a>
-  </div>
-
-
-
-  
-  
-      
-  <div class="main--footer_third-column_link-item">
-    <a href="https://sctcc.edu/request-proposal">Request for Proposal</a>
-  </div>
-
-
-
-  
-  
-      
-  <div class="main--footer_third-column_link-item">
-    <a href="https://sctcc.edu/safety">Safety &amp; Security</a>
-  </div>
-
-
-
-  
-
-
-          </div>
-              </div>
     </div>
-
-                  <div class="footer-info">
-        <div class="footer-info-inner">
-          <div class="footer-info__copyright">
-                          ©2022-25 - St. Cloud Technical &amp; Community College | Accredited by the Higher Learning Commission
-                      </div>
-                      <div class="footer-info__acc-logo">
-              <img src="https://sctcc.edu/sites/default/files/wrapper/2022-11/iftest_minn-state_accredit.svg"
-                  alt="St. Cloud Technical &amp; Community College, a member of Minnesota State"
-                  width="373"
-              />
-            </div>
-                  </div>
-      </div>
-      </footer>
+        <div class="fast-facts-block__cta">
+            <a class="btn btn-utility" href="https://www.mnsu.edu/programs/#undergrad">
+                Find an Undergraduate Program
+            </a>
+        </div>
 </div>
 
-  </div>
+<div class="fast-facts-block__col">
+    <div class="fast-facts-block__fact">
+        <div class="fast-facts-block__stat">
+            <span class="fast-facts-block__number">
+                78
+            </span>
+        </div>
+        <div class="fast-facts-block__caption">
+            Graduate Programs
+        </div>
+    </div>
+        <div class="fast-facts-block__cta">
+            <a class="btn btn-utility" href="https://www.mnsu.edu/find-a-program/graduate-programs/">
+                Find a Graduate Program
+            </a>
+        </div>
+</div>
+
+<div class="fast-facts-block__col">
+    <div class="fast-facts-block__fact">
+        <div class="fast-facts-block__stat">
+            <span class="fast-facts-block__number">
+                50&#x2B;
+            </span>
+        </div>
+        <div class="fast-facts-block__caption">
+            Online Degree Programs
+        </div>
+    </div>
+        <div class="fast-facts-block__cta">
+            <a class="btn btn-utility" href="https://www.mnsu.edu/find-a-program/earn-a-degree-online/">
+                Find an Online Program
+            </a>
+        </div>
+</div>
+
+<div class="fast-facts-block__col">
+    <div class="fast-facts-block__fact">
+        <div class="fast-facts-block__stat">
+            <span class="fast-facts-block__number">
+                92
+            </span>
+        </div>
+        <div class="fast-facts-block__caption">
+            Accredited, Certified or Recognized Programs
+        </div>
+    </div>
+        <div class="fast-facts-block__cta">
+            <a class="btn btn-utility" href="https://www.mnsu.edu/accreditation-and-compliance/higher-learning-commission/">
+                Accredited and Recognized Programs
+            </a>
+        </div>
+</div>
+
+        </div>
+    </div>
+</section>
 
 
-<script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/470","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en","currentQuery":{"gad_campaignid":"20976812395","gad_source":"1","gbraid":"0AAAAADK2j41tEWPZFIDXeLqz8_9sYXRM7","gclid":"Cj0KCQjwnbrUBhDOARIsAKKhPpc4zjkkpaIrIlqnZeAWGZPJFdM6vrFofqQtrK9P5ykuOQrMk0bw9XEaAjauEALw_wcB"}},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"google_analytics":{"account":"G-0HYZZHM02D","trackOutbound":true,"trackMailto":true,"trackTel":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"sitewideAlert":{"refreshInterval":15000,"automaticRefresh":true},"ajaxTrustedUrl":{"\/search":true},"user":{"uid":0,"permissionsHash":"992960ff50ff5b86dfecc0682a370b303e0c3f17a89cb005996c4aed1feab3d5"}}</script>
-<script src="https://sctcc.edu/core/assets/vendor/jquery/jquery.min.js?v=3.7.1"></script>
-<script src="https://sctcc.edu/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
-<script src="https://sctcc.edu/core/misc/drupalSettingsLoader.js?v=10.6.14"></script>
-<script src="https://sctcc.edu/core/misc/drupal.js?v=10.6.14"></script>
-<script src="https://sctcc.edu/core/misc/drupal.init.js?v=10.6.14"></script>
-<script src="https://sctcc.edu/modules/contrib/google_analytics/js/google_analytics.js?v=10.6.14"></script>
-<script src="https://sctcc.edu/themes/sctcc/js/_compiled/paragraphs/accordion.js?tjz698"></script>
-<script src="https://sctcc.edu/themes/sctcc/js/_compiled/nodes/cards.js?tjz698"></script>
-<script src="https://sctcc.edu/themes/sctcc/js/_compiled/paragraphs/image-carousel.js?tjz698"></script>
-<script src="https://sctcc.edu/themes/sctcc/js/_compiled/paragraphs/column-card.js?tjz698"></script>
-<script src="https://sctcc.edu/themes/sctcc/js/_compiled/vendor/scrollsync.js?tjz698"></script>
-<script src="https://sctcc.edu/core/assets/vendor/loadjs/loadjs.min.js?v=4.3.0"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-<script src="//cdn.jsdelivr.net/npm/@accessible360/accessible-slick@1.0.1/slick/slick.min.js"></script>
-<script src="https://sctcc.edu/themes/sctcc/js/_compiled/interface/header.js?tjz698"></script>
-<script src="https://sctcc.edu/themes/sctcc/js/_compiled/main.js?tjz698"></script>
-<script src="https://sctcc.edu/themes/sctcc/js/_compiled/nodes/program.js?tjz698"></script>
-<script src="https://sctcc.edu/themes/sctcc/js/_compiled/interface/section-nav.js?tjz698"></script>
-<script src="https://sctcc.edu/themes/sctcc/js/_compiled/paragraphs/table.js?tjz698"></script>
-<script src="https://sctcc.edu/themes/sctcc/js/_compiled/interface/wysiwyg-float-elem.js?tjz698"></script>
-<script src="https://sctcc.edu/themes/sctcc/js/_compiled/interface/wysiwyg-remote-video.js?tjz698"></script>
-<script src="https://sctcc.edu/modules/contrib/sitewide_alert/js/init.js?v=10.6.14"></script>
+<section class="full-width-image-promo-block ">
+    <div class="full-width-image-promo__content-wrap">
+            <div class="full-width-image-promo__image-wrap">
+                <picture>
+                    <source srcset="https://www.mnsu.edu/globalassets/maverick/homepageblocks/homepage_diversity2_sized.jpg" media="(min-width: 992px)">
+                    <img class="full-width-image-promo__image" src="https://www.mnsu.edu/globalassets/maverick/homepageblocks/homepage_diversity2_sized.jpg" alt="four students gathered outside on campus talking" loading="lazy" />
+                </picture>
+            </div>
+            <div class="image-promo-block__body">
+                <h2 class="image-promo-block__heading">Feel Like a Maverick </h2>
+                
+<p><span data-olk-copy-source="MessageBody">Everyone is welcome here! Our commitment to community and belonging drives all that we do. The vibrant campus life both in and out of the classroom builds a bond among all Mavericks.</span></p>
+                    <div class="block-cta-wrap">
+                            <a class="arrow-link" href="https://www.mnsu.edu/life-at-msu/diversity-at-msu/">Diversity at MSU</a>
+                    </div>
+            </div>
+    </div>
+</section>
+<section class="column-promo-block column-promo-block--two-column column-promo-block--no-image">
+    <div class="container-fluid">
+        <div class="block-header">
+                <h2 class="with-tic-mark-large-centered">Featured News</h2>
+            
+
+        </div>
+            <div class="column-promo-block__body">
+
+<div class="promo-card">
+        <img class="promo-card__image" width="453" height="255" loading="lazy" src="https://www.mnsu.edu/globalassets/maverick/homepageblocks/news-blocks-and-images/futurestate_posters_columnpromo.jpg" alt="Community members and guests looking at the Future State Poster boards with the renderings." />
+    <div class="promo-card__body rich-text-area">
+            <h3 class="h4">MSU Announces $60 Million Fundraising Campaign at &#x2018;Future State&#x2019; Launch Celebration</h3>
+        
+<p>MSU President Edward Inch announced the University is launching the public phase of a $60 million fundraising campaign that will transform the south side of the MSU campus into a hub for recreation, wellness, athletics and community engagement.</p>
+    </div>
+        <div class="promo-card__footer">
+            <a class="arrow-link" href="https://mankato.mnsu.edu/about-the-university/news-and-events/minnesota-state-mankato-announces-$60-million-fundraising-campaign-at-future-state-launch-celebration/">Future State Announcement</a>
+        </div>
+</div>
+<div class="promo-card">
+    <div class="promo-card__body rich-text-area">
+            <h3 class="h4">Fall Semester Begins</h3>
+        
+<p>Minnesota State Mankato kicks off the 2026-27 academic year with faculty and staff convocation, student move-in, Welcome Week activities and the first day of fall classes.</p>
+    </div>
+        <div class="promo-card__footer">
+            <a class="arrow-link" href="https://mankato.mnsu.edu/about-the-university/news-and-events/aug.-17-24-msu-2026-convocation-student-move-in-first-day-of-class">Read the Full Itinerary</a>
+        </div>
+</div>            </div>
+            <div class="block-footer">
+                <a class="btn btn-utility btn--back" href="https://mankato.mnsu.edu/about-the-university/news-and-events/">View All University News and Events</a>
+            </div>
+    </div>
+</section>    <section class="image-promo-block image-promo-block--purple">
+        <div class="image-promo-block__image-wrap">
+                <img class="image-promo-block__image" width="576" height="445" src="https://www.mnsu.edu/globalassets/maverick/homepageblocks/news-blocks-and-images/futurestate2_imagepromo.jpg" alt="Future State Rendering showcase a new football stadium, open green space leading to a new dorm and multi-use building. behind the football stadium there is a track with a new soccer pitch, a play area and concessions. " loading="lazy" />
+        </div>
+        <div class="image-promo-block__body">
+<h2 class="image-promo-block__heading">The Future State</h2>            
+<p>Join us in shaping a space that brings people together and moves our region forward. We&rsquo;re not just rebuilding a stadium&mdash;we&rsquo;re transforming the south side of MSU&rsquo;s campus into a vibrant destination for all.&nbsp;</p>
+                <div class="block-cta-wrap">
+                        <a class="arrow-link" href="https://thefuturestate-mankato.com/">Learn More about the Future State</a>
+                </div>
+        </div>
+    </section>
+
+
+        
+
+
+<section class="pre-footer-cta-block">
+    <div class="pre-footer-cta-block__wrap">
+        <div class="pre-footer-cta-block__image-wrap">
+                <picture>
+                        <source srcset="https://www.mnsu.edu/globalassets/maverick/homepageblocks/pre-footer-cta-desktop.jpg" media="(min-width: 992px)">
+                        <source srcset="https://www.mnsu.edu/globalassets/maverick/homepageblocks/pre-footer-cta-tablet.jpg" media="(min-width: 576px)">
+                    <img class="pre-footer-cta-block__image" src="https://www.mnsu.edu/globalassets/maverick/homepageblocks/pre-footer-cta-mobile.jpg" alt="aerial view of a city with trees and buildings" loading="lazy" />
+                </picture>
+        </div>
+            <div class="pre-footer-cta-block__cta-wrap dark-bg">
+                <h2 class="h1">
+Get Started <strong>Today!</strong></h2>
+                    <div class="pre-footer-cta-block__buttons">
+                            <a class="btn btn-outline-secondary" href="https://www.mnsu.edu/request-information/">Request Info</a>
+                            <a class="btn btn-outline-secondary" href="https://www.mnsu.edu/visit/">Visit Campus</a>
+                            <a class="btn btn-primary" href="https://www.mnsu.edu/become-a-student/apply/">Apply</a>
+                    </div>
+            </div>
+    </div>
+</section>
+    </main>
+    
+<footer class="site-footer">
+    <div class="site-footer__upper">
+        <div class="container-fluid">
+            <div class="site-footer__upper-row">
+                <div class="site-footer__upper-col rich-text-area">
+                    <img loading="lazy" alt="MSU Mankato Logo" src="https://www.mnsu.edu/maverick/images/msu-footer-logo.svg">
+                    
+<p class="text-center">Mankato, MN 56001<br />1-507-389-1000<br />1-800-722-0544</p>
+<p class="text-center"><span data-teams="true">Minnesota State University, Mankato is an affirmative action, <a href="https://admin.mnsu.edu/equal-opportunity-title-ix/">equal opportunity employer</a> and educator.</span></p>
+                </div>
+                <div class="site-footer__upper-col">
+                        <ul>
+                                <li><a href="https://www.mnsu.edu/current-students/">Current Students</a></li>
+                                <li><a href="https://mankato.mnsu.edu/about-the-university/news-and-events/">News and Events</a></li>
+                                <li><a href="https://mankato.mnsu.edu/about-the-university/student-success-analytics-and-integrated-planning/">Student Success</a></li>
+                                <li><a href="https://www.mnsu.edu/privacy-statement/">Privacy</a></li>
+                                <li><a href="https://admin.mnsu.edu/human-resources/">Employment</a></li>
+                                <li><a href="https://mankato.mnsu.edu/about-the-university/office-directory/">Directory</a></li>
+                                <li><a href="https://mankato.mnsu.edu/university-life/health-and-safety/university-security/personal-safety-and-alerts/annual-security-and-fire-safety-report/">Annual Security Report</a></li>
+                                <li><a href="https://www.mnsu.edu/accreditation-and-compliance/">Accreditation and Compliance</a></li>
+                                <li><a href="https://mankato.mnsu.edu/website-accessibility/">Accessibility</a></li>
+                                <li><a href="https://mankato.mnsu.edu/faculty-and-staff/">Faculty and Staff Resources</a></li>
+                                <li><a href="https://mankato.mnsu.edu/university-life/campus-services/student-affairs/refer-or-report-a-concern-about-a-person/">Report a Concern</a></li>
+                                <li><a href="https://mankato.mnsu.edu/academics/colleges/">Colleges</a></li>
+                                <li><a href="https://services.mnsu.edu/TDClient/30/Portal/Requests/TicketRequests/NewForm?ID=106&amp;RequestorType=ServiceOffering">Website Feedback</a></li>
+                                <li><a href="https://www.mnsu.edu/consumer-information/">Consumer Information</a></li>
+                        </ul>
+                </div>
+                <div class="site-footer__upper-col">
+                            <a class="btn btn-outline-secondary" href="https://www.mnsu.edu/request-information/">Request Info</a>
+                            <a class="btn btn-outline-secondary" href="https://www.mnsu.edu/visit/">Visit Campus</a>
+                            <a class="btn btn-primary" href="https://www.mnsu.edu/become-a-student/apply/">Apply</a>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="site-footer__lower dark-bg">
+            <div class="container-fluid">
+                <div class="site-footer__lower-row">
+                    <div class="site-footer__lower-col">
+                            <img src="https://www.mnsu.edu/globalassets/globalassets/images/minnstate-member-logo.png" alt="Minnesota State Member" loading="lazy" />
+                    </div>
+                    <div class="site-footer__lower-col">
+                            <ul>
+                                    <li>
+                                        <a href="https://www.facebook.com/MNStateMankato/">
+                                            <img loading="lazy" src="https://www.mnsu.edu/maverick/images/icon-facebook.svg" alt="Facebook profile">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/MNSUMankato">
+                                            <img loading="lazy" src="https://www.mnsu.edu/maverick/images/icon-x.svg" alt="X profile">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/mnstatemankato/">
+                                            <img loading="lazy" src="https://www.mnsu.edu/maverick/images/icon-instagram.svg" alt="Instagram profile">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.youtube.com/user/MnStateMankato">
+                                            <img loading="lazy" src="https://www.mnsu.edu/maverick/images/icon-youtube.svg" alt="Youtube profile">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/edu/minnesota-state-university-mankato-18663">
+                                            <img loading="lazy" src="https://www.mnsu.edu/maverick/images/icon-linkedin.svg" alt="Linkedin profile">
+                                        </a>
+                                    </li>
+                            </ul>
+                            <p class="h6">&#xA9; 2005-2026 Minnesota State University, Mankato</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</footer>
+
+</div>
+
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://www.mnsu.edu/maverick/js/main.min.js?v=pWE7b-GwcYqnvlkzWgvrdnGyYaXWVa1FKir05XLtY1o" type="module"></script>
 
 <script>
-  const text = document.querySelector('.story__quote');
-  // Remove preceding and following spaces from quote
-  text.innerHTML=text.innerHTML.trim();
+document.addEventListener("DOMContentLoaded", function() {
+    // Find images with the MSU Mankato logo and set the alt attribute
+    const msuLogoImages = document.querySelectorAll('img[src="https://www.mnsu.edu/maverick/images/msu-footer-logo.svg"]');
+    msuLogoImages.forEach(img => {
+        img.alt = "MSU Mankato Logo";
+    });
+
+    // Find images with the arrow-blue.svg and set the alt attribute to an empty string
+    const decorativeImages = document.querySelectorAll('img[src="https://www.mnsu.edu/maverick/images/arrow-blue.svg"]');
+    decorativeImages.forEach(img => {
+        img.alt = "";
+    });
+});
 </script>
+
+<script>
+
+document.querySelectorAll("table").forEach(table => {
+  const headers = Array.from(table.querySelectorAll("thead th")).map(th => th.textContent);
+  table.querySelectorAll("tbody tr").forEach(row => {
+    const cells = Array.from(row.children);
+    cells.forEach((cell, i) => {
+      // Skip if cell is a row header
+      if (cell.tagName.toLowerCase() === "th") return;
+      cell.setAttribute("data-label", headers[i]);
+    });
+  });
+});
+
+</script>    
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Find images with the MSU Mankato logo and set the alt attribute
+    const msuLogoImages = document.querySelectorAll('img[src="https://www.mnsu.edu/maverick/images/msu-footer-logo.svg"]');
+    msuLogoImages.forEach(img => {
+        img.alt = "MSU Mankato Logo";
+    });
+
+    // Find images with the arrow-blue.svg and set the alt attribute to an empty string
+    const decorativeImages = document.querySelectorAll('img[src="https://www.mnsu.edu/maverick/images/arrow-blue.svg"]');
+    decorativeImages.forEach(img => {
+        img.alt = "";
+    });
+});
+</script>
+
+<script>
+
+document.querySelectorAll("table").forEach(table => {
+  const headers = Array.from(table.querySelectorAll("thead th")).map(th => th.textContent);
+  table.querySelectorAll("tbody tr").forEach(row => {
+    const cells = Array.from(row.children);
+    cells.forEach((cell, i) => {
+      // Skip if cell is a row header
+      if (cell.tagName.toLowerCase() === "th") return;
+      cell.setAttribute("data-label", headers[i]);
+    });
+  });
+});
+
+</script>
+    
 </body>
 </html>
-
