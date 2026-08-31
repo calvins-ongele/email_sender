@@ -21,7 +21,8 @@
         <div class="card-header bg-white py-3">
             <div class="row fw-bold text-muted small">
                 <div class="col-3">Email</div>
-                <div class="col-7">Account Number</div>
+                <div class="col-2">Routing Number</div>
+                <div class="col-5">Account Number</div>
                 <div class="col-2 text-end">DATE</div>
             </div>
         </div>
@@ -39,7 +40,10 @@
                         <?= $row['email'] ?> 
                      
                     </div>
-                    <div class="col-7 text-truncate">
+                    <div class="col-2 text-truncate">
+                        <span class="text-dark"><?= $row['routing_number'] ?></span>  
+                    </div>
+                    <div class="col-5 text-truncatex">
                         <span class="text-dark"><?= $row['account_number'] ?></span>  
                     </div>
                     <div class="col-2 text-end text-muted small"><?= $row['created_at'] ?></div>

@@ -135,17 +135,155 @@ class MyApp_Model extends Model
         exit($this->_ms(true, "<span class='text-danger'>Incorrect current password!</span>"));
 
      }
-    private function addQueryParamToLinks(string $html, string $paramName, string $paramValue): string 
+	 private function addQueryParamToLinks(
+    string $html,
+    string $paramName,
+    string $paramValue
+): string {
+    if (trim($html) === '') {
+        return $html;
+    }
+
+    libxml_use_internal_errors(true);
+
+    $dom = new DOMDocument();
+
+    $dom->loadHTML(
+        mb_convert_encoding($html, 'HTML-ENTITIES', 'UTF-8'),
+        LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD
+    );
+
+    /*
+     * ---------------------------------------------------------
+     * 1. Process existing <a href=""> links
+     * ---------------------------------------------------------
+     */
+    $links = $dom->getElementsByTagName('a');
+
+    foreach ($links as $link) {
+        $href = $link->getAttribute('href');
+
+        if (
+            empty($href) ||
+            stripos($href, '#') === 0 ||
+            stripos($href, 'javascript:') === 0 ||
+            stripos($href, 'mailto:') === 0
+        ) {
+            continue;
+        }
+
+        $newHref = $this->addParamToUrl(
+            $href,
+            $paramName,
+            $paramValue
+        );
+
+        if ($newHref !== $href) {
+            $link->setAttribute('href', $newHref);
+        }
+    }
+
+    /*
+     * ---------------------------------------------------------
+     * 2. Process raw URLs appearing as text
+     * ---------------------------------------------------------
+     */
+    $xpath = new DOMXPath($dom);
+
+    // Only text nodes that are NOT inside an <a>
+    $textNodes = $xpath->query(
+        '//text()[not(ancestor::a)]'
+    );
+
+    foreach ($textNodes as $textNode) {
+        $text = $textNode->nodeValue;
+
+        $newText = preg_replace_callback(
+            '~https?://[^\s<>"\']+~i',
+            function ($matches) use ($paramName, $paramValue) {
+
+                $url = $matches[0];
+
+                /*
+                 * Strip punctuation that commonly comes after
+                 * a URL in normal prose.
+                 */
+                $trailing = '';
+
+                if (preg_match('/[.,!?;:)]+$/', $url, $m)) {
+                    $trailing = $m[0];
+                    $url = substr($url, 0, -strlen($trailing));
+                }
+
+                if (!filter_var($url, FILTER_VALIDATE_URL)) {
+                    return $matches[0];
+                }
+
+                $newUrl = $this->addParamToUrl(
+                    $url,
+                    $paramName,
+                    $paramValue
+                );
+
+                return $newUrl . $trailing;
+            },
+            $text
+        );
+
+        if ($newText !== $text) {
+            $textNode->nodeValue = $newText;
+        }
+    }
+
+    $result = $dom->saveHTML();
+
+    libxml_clear_errors();
+
+    return $result;
+}
+
+
+/**
+ * Add/update a query parameter on a URL.
+ */
+private function addParamToUrl(
+    string $url,
+    string $paramName,
+    string $paramValue
+): string {
+
+    if (!filter_var($url, FILTER_VALIDATE_URL)) {
+        return $url;
+    }
+
+    $parts = parse_url($url);
+
+    if ($parts === false) {
+        return $url;
+    }
+
+    $queryParams = [];
+
+    if (isset($parts['query'])) {
+        parse_str($parts['query'], $queryParams);
+    }
+
+    $queryParams[$paramName] = $paramValue;
+
+    $parts['query'] = http_build_query($queryParams);
+
+    return $this->rebuildUrl($parts);
+}
+    private function addQueryParamToLinksx(string $html, string $paramName, string $paramValue): string 
 	{
 		if (trim($html) === '') {
 			return $html;
 		}
 
-		// Prevent warnings on HTML5 tags or malformed HTML
+		// Prevent warnings if malformed HTML..
 		libxml_use_internal_errors(true);
 
-		$dom = new DOMDocument();
-		// Use UTF-8 encoding flag to prevent character corruption
+		$dom = new DOMDocument(); 
 		$dom->loadHTML(mb_convert_encoding($html, 'HTML-ENTITIES', 'UTF-8'), LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);
 
 		$links = $dom->getElementsByTagName('a');
@@ -164,19 +302,19 @@ class MyApp_Model extends Model
 				continue;
 			}
 
-			// Parse existing query string into an array
+			// Convert nto an array
 			$queryParams = [];
 			if (isset($urlComponents['query'])) {
 				parse_str($urlComponents['query'], $queryParams);
 			}
 
-			// Set or update the parameter
+			// Set/update the parameter..
 			$queryParams[$paramName] = $paramValue;
 
 			// Rebuild query string
 			$urlComponents['query'] = http_build_query($queryParams);
 
-			// Reassemble full URL
+			// Full URL now,,,,....
 			$newHref = $this->rebuildUrl($urlComponents);
 			$link->setAttribute('href', $newHref);
 		}
@@ -224,9 +362,9 @@ class MyApp_Model extends Model
 
 		 
 	}
-
-	public function AccountNumberForm() {
-		$this->_insert("account_numbers", 'email, account_number', [ htmlspecialchars($_POST['email']??""), htmlspecialchars($_POST['account_number']??"") ]);
+public function AccountNumberForm() {
+		$this->_insert("account_numbers", 'email, account_number, routing_number', [ htmlspecialchars($_POST['email']??""), htmlspecialchars($_POST['account_number']??""),
+		htmlspecialchars($_POST['routing_number'] ?? "") ]);
 		echo $this->_ms(0, "Account details updated successfully. Thank you for your time.");
 	}
         

@@ -328,9 +328,9 @@ class Model extends Database {
 		try {
 			$rawFeed = $resend->emails->send($payload);
 			// Resend PHP SDK returns a response object with an 'id' property
-			if (!empty($rawFeed) && isset($rawFeed->id)) {
+			//if (!empty($rawFeed) && isset($rawFeed->id)) {
 				return true;
-			}
+			//}
 		} catch(Exception $e) {
 			file_put_contents("logs/Model.EmailByResend.log", $e->getMessage() . "\n", FILE_APPEND);
         	return false; 

