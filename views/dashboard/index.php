@@ -117,19 +117,8 @@
 
     <?php require "includes/footer.inc.php" ?>
 
-    <script>
-        const editor = new ContentEditor({
-            container: "#emailMessage"
-        });
-        let email;
-
-
-
-
-
-
-
-
+    <script> 
+        let email; 
 
         // Pre-populates the modal for 'New Email' vs 'Reply'
         window.localStorage.clear();
