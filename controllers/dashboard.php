@@ -7,12 +7,18 @@ class Dashboard extends Controller {
 	}
 	
 	public function index() {	
-		Auth::handleLogin();
-	   // $this->view->charity = $this->model->getservicesaccounts();
+		Auth::handleLogin(); 
 		$this->view->title = ' Dashboard | '.$this->_company()['c_name']; ; 
 		$this->view->render('dashboard/index');
 	} 
 	
+	
+	public function newemail() {	
+		Auth::handleLogin(); 
+		$this->view->templates = $this->model->getTemplates();
+		$this->view->title = ' New Email | '.$this->_company()['c_name']; ; 
+		$this->view->render('dashboard/new-email');
+	} 
     
 	public function accountnumbers($id = 'card') {
 	    Auth::handleLogin();

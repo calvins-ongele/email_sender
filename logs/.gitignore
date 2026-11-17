@@ -1,0 +1,4 @@
+# Ignore all files with a specific extension
+*.log
+*.txt
+*.tmp

@@ -1,10 +1,9 @@
 # Ignore specific files 
 .env
 
-# Ignore an entire folder (always end with a forward slash)
-IanMain
-WUYO
+# Ignore an entire folder (always end with a forward slash) 
 node_modules/
+vendor/
 dist/
 .vscode/
 
