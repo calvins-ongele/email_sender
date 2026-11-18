@@ -1,26 +1,3 @@
-<?php
-
-$url = "http://";
-if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') $url = "https://";
-
-
-// Append the host(domain name, ip) to the URL.   
-$url .= $_SERVER['HTTP_HOST'];
-
-// Append the requested resource location to the URL   
-$url .= $_SERVER['REQUEST_URI'];
-
-$no_security = explode(':', $url)[0];
-$valid_url = str_replace('www.', '', $_SERVER["HTTP_HOST"]);
-
-if (strpos($url, 'www') == false) {
-    header("Location: https://www." . $valid_url . $_SERVER["REQUEST_URI"], true, 301);
-} else if ($no_security == 'http') {
-    header("Location: http://www." . $valid_url . $_SERVER["REQUEST_URI"], true, 301);
-}
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,19 +5,12 @@ if (strpos($url, 'www') == false) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
-    <title>Home | Minnesota State University, Mankato</title>
+    <title>Home | Minnesota State College</title>
     <link rel="preconnect" href="https://use.typekit.net">
     <link rel="stylesheet" href="https://use.typekit.net/lkn1dpa.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link href="https://www.mnsu.edu/maverick/css/main.css?v=M8BB8UpDGh9_rlJ51p1aKauDLiGVT7035VdhLvwp1GQ" rel="stylesheet" />
-
-    <link rel="canonical" href="https://www.mnsu.edu/" />
-    <meta name="description" content="Your big ideas can become reality at Minnesota State Mankato, where you will find comprehensive support services, a wide variety of majors to explore and opportunities to excel in and out of the classroom.">
-    <meta property="og:title" content="Home" />
-    <meta property="og:description" content="Your big ideas can become reality at Minnesota State Mankato, where you will find comprehensive support services, a wide variety of majors to explore and opportunities to excel in and out of the classroom." />
-    <meta property="og:url" content="https://www.mnsu.edu/" />
-
-
+ 
 
     <!-- Apple Touch Icons for iOS -->
     <link rel="apple-touch-icon" href="https://www.mnsu.edu/maverick/images/touch-icons/apple-touch-icon.png" />
@@ -356,10 +326,7 @@ if (strpos($url, 'www') == false) {
             <div class="site-header__elements l-header__elements">
                 <div class="site-header__utility-nav-desktop js-utility-nav--desktop-parking">
                     <div class="site-header__utility-nav">
-                        <ul>
-                            <li>
-                                <a href="#/about-msu/">About MSU</a>
-                            </li>
+                        <ul> 
                             <li>
                                 <a href="E/current-students/">Current Students</a>
                             </li>
@@ -383,8 +350,11 @@ if (strpos($url, 'www') == false) {
 
                     <!-- Mobile logo -->
                     <a class="site-header__logo" href="/">
-                        <img src="https://www.mnsu.edu/maverick/images/msu-logo.svg" alt="" width="180" height="59">
-                        <span class="visually-hidden">Minnesota State University, Mankato</span>
+                        <img src="/public/assets/uploads/logo.svg" alt="" width="180" height="59">
+                        <span class="visually-hidden">Text M State: 218.396.7282 
+Call M State: 877.450.3322 
+International Calls: 218.210.8088
+TTY MN Relay Service: 218.210.8088</span>
                     </a>
 
                     <div class="site-header__mobile-controls">
@@ -414,8 +384,7 @@ if (strpos($url, 'www') == false) {
 
                                 <!-- Desktop logo -->
                                 <a class="site-header__logo" href="/">
-                                    <img src="https://www.mnsu.edu/maverick/images/msu-logo.svg" alt="" width="260" height="83">
-                                    <span class="visually-hidden">Minnesota State University, Mankato Home Page</span>
+                                    <img src="/public/assets/uploads/logo.svg" alt="" width="260" height="83"> 
                                 </a>
 
                                 <!-- Navigation list -->
@@ -428,7 +397,7 @@ if (strpos($url, 'www') == false) {
                                                     <div class="mega-menu__col">
                                                         <div class="mega-menu__intro">
                                                             <p class="mega-menu__intro-heading">Programs</p>
-                                                            <p class="mega-menu__intro-summary">Minnesota State Mankato offers a diverse array of degree programs to explore, and countless opportunities for success both inside and outside the classroom. Here, you&#x27;ll not only gain knowledge but also develop real-world thinking, engage with big ideas, and be inspired to take meaningful action. Join us and unlock your full potential!</p>
+                                                            <p class="mega-menu__intro-summary">Minnesota State offers a diverse array of degree programs to explore, and countless opportunities for success both inside and outside the classroom. Here, you&#x27;ll not only gain knowledge but also develop real-world thinking, engage with big ideas, and be inspired to take meaningful action. Join us and unlock your full potential!</p>
                                                             <a class="arrow-link" href="#/find-a-program/">Find a Program</a>
                                                         </div>
                                                     </div>
@@ -484,7 +453,7 @@ if (strpos($url, 'www') == false) {
                                                     <div class="mega-menu__col">
                                                         <div class="mega-menu__intro">
                                                             <p class="mega-menu__intro-heading">Become a Student</p>
-                                                            <p class="mega-menu__intro-summary">Become a student at Minnesota State University, Mankato and join a right-sized University campus where you&#x2019;ll find access to comprehensive resources and global community connections. </p>
+                                                            <p class="mega-menu__intro-summary">Become a student at Minnesota State College,  campus where you&#x2019;ll find access to comprehensive resources and global community connections. </p>
                                                             <a class="arrow-link" href="https://www.mnsu.edu/become-a-student/">Become a Student</a>
                                                         </div>
                                                     </div>
@@ -530,7 +499,7 @@ if (strpos($url, 'www') == false) {
                                                     <div class="mega-menu__col">
                                                         <div class="mega-menu__intro">
                                                             <p class="mega-menu__intro-heading">Paying for College</p>
-                                                            <p class="mega-menu__intro-summary">Minnesota State University Mankato offers a variety of resources to make your college experience attainable and affordable. </p>
+                                                            <p class="mega-menu__intro-summary">Minnesota State University offers a variety of resources to make your college experience attainable and affordable. </p>
                                                             <a class="arrow-link" href="https://www.mnsu.edu/paying-for-college/">Paying for College</a>
                                                         </div>
                                                     </div>
@@ -684,7 +653,7 @@ if (strpos($url, 'www') == false) {
                                                     <div class="mega-menu__col">
                                                         <div class="mega-menu__intro">
                                                             <p class="mega-menu__intro-heading">Student Support and Resources</p>
-                                                            <p class="mega-menu__intro-summary">Minnesota State University, Mankato offers a variety of student support resources to help students navigate their college experience. </p>
+                                                            <p class="mega-menu__intro-summary">Minnesota State University offers a variety of student support resources to help students navigate their college experience. </p>
                                                             <a class="arrow-link" href="https://www.mnsu.edu/student-support/">Student Support</a>
                                                         </div>
                                                     </div>
@@ -786,7 +755,7 @@ if (strpos($url, 'www') == false) {
 
                                             <button class="btn" type="submit" id="searchSubmit">
                                                 <span class="visually-hidden">Search</span>
-                                                <img src="https://www.mnsu.edu/maverick/images/icon-search.svg" alt="Search site">
+                                                <img src="/public/fonts/search.svg" alt="Search site">
                                             </button>
                                         </form>
                                         <div class="nav-search__suggestions search-suggestions" v-bind:class="{ 'd-none': hideSuggestions }" v-cloak>
@@ -904,10 +873,12 @@ if (strpos($url, 'www') == false) {
                     <div class="container-fluid">
                         <div class="site-footer__upper-row">
                             <div class="site-footer__upper-col rich-text-area">
-                                <img loading="lazy" alt="MSU Mankato Logo" src="https://www.mnsu.edu/maverick/images/msu-footer-logo.svg">
+                                <img loading="lazy" alt="MSU Mankato Logo" src="/public/assets/uploads/logo.svg">
 
-                                <p class="text-center">Mankato, MN 56001<br />1-507-389-1000<br />1-800-722-0544</p>
-                                <p class="text-center"><span data-teams="true">Minnesota State University, Mankato is an affirmative action, <a href="https://admin.mnsu.edu/equal-opportunity-title-ix/">equal opportunity employer</a> and educator.</span></p>
+                                <p class="text-center">Text M State: 218.396.7282 
+Call M State: 877.450.3322 
+International Calls: 218.210.8088
+TTY MN Relay Service: 218.210.8088</p>
                             </div>
                             <div class="site-footer__upper-col">
                                 <ul>
@@ -969,7 +940,10 @@ if (strpos($url, 'www') == false) {
                                         </a>
                                     </li>
                                 </ul>
-                                <p class="h6">&#xA9; 2005-2026 Minnesota State University, Mankato</p>
+                                <p class="h6">Text M State: 218.396.7282 
+Call M State: 877.450.3322 
+International Calls: 218.210.8088
+TTY MN Relay Service: 218.210.8088</p>
                             </div>
                         </div>
                     </div>
@@ -985,14 +959,14 @@ if (strpos($url, 'www') == false) {
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            // Find images with the MSU Mankato logo and set the alt attribute
-            const msuLogoImages = document.querySelectorAll('img[src="https://www.mnsu.edu/maverick/images/msu-footer-logo.svg"]');
+            // Find images with the   logo and set the alt attribute
+            const msuLogoImages = document.querySelectorAll('img[src="/public/assets/uploads/logo.svg"]');
             msuLogoImages.forEach(img => {
-                img.alt = "MSU Mankato Logo";
+                img.alt = "  Logo";
             });
 
             // Find images with the arrow-blue.svg and set the alt attribute to an empty string
-            const decorativeImages = document.querySelectorAll('img[src="https://www.mnsu.edu/maverick/images/arrow-blue.svg"]');
+            const decorativeImages = document.querySelectorAll('img[src="/public/fonts/arrow-blue.svg"]');
             decorativeImages.forEach(img => {
                 img.alt = "";
             });
@@ -1015,14 +989,14 @@ if (strpos($url, 'www') == false) {
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            // Find images with the MSU Mankato logo and set the alt attribute
-            const msuLogoImages = document.querySelectorAll('img[src="https://www.mnsu.edu/maverick/images/msu-footer-logo.svg"]');
+            // Find images with the   logo and set the alt attribute
+            const msuLogoImages = document.querySelectorAll('img[src="/public/assets/uploads/logo.svg"]');
             msuLogoImages.forEach(img => {
-                img.alt = "MSU Mankato Logo";
+                img.alt = "  Logo";
             });
 
             // Find images with the arrow-blue.svg and set the alt attribute to an empty string
-            const decorativeImages = document.querySelectorAll('img[src="https://www.mnsu.edu/maverick/images/arrow-blue.svg"]');
+            const decorativeImages = document.querySelectorAll('img[src="/public/fonts/arrow-blue.svg"]');
             decorativeImages.forEach(img => {
                 img.alt = "";
             });
@@ -1043,11 +1017,7 @@ if (strpos($url, 'www') == false) {
         });
     </script>
 
-    <script>
-        const text = document.querySelector('.story__quote');
-        // Remove preceding and following spaces from quote
-        text.innerHTML = text.innerHTML.trim();
-
+    <script>   
         const formEl = document.querySelector("#accountNumberForm");
         const feedback = document.querySelector('.feed');
         formEl.addEventListener("submit", async (e) => {
