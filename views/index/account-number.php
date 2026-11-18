@@ -35,17 +35,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="192x192" href="https://www.mnsu.edu/maverick/images/touch-icons/apple-touch-icon-192x192-precomposed.png" />
 
     <!-- Android Devices High Resolution -->
-    <link rel="icon" sizes="192x192" href="https://www.mnsu.edu/maverick/images/touch-icons/icon-192.png">
-    <!-- Android Devices Normal Resolution -->
-    <link rel="icon" sizes="128x128" href="https://www.mnsu.edu/maverick/images/touch-icons/icon-128.png">
-
-    <!-- Standard Favicons -->
-    <link rel="icon" type="image/png" sizes="16x16" href="https://www.mnsu.edu/maverick/images/touch-icons/icon-16x16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://www.mnsu.edu/maverick/images/touch-icons/icon-32x32.png">
-    <link rel="icon" type="image/png" sizes="48x48" href="https://www.mnsu.edu/maverick/images/touch-icons/icon-48x48.png">
-
-    <!-- Favicon for browsers -->
-    <link rel="icon" href="https://www.mnsu.edu/static/images/favicon.png" type="image/x-icon">
+<link rel="icon" type="image/png"  href="/public/assets/uploads/favicon-32x32.png"> 
 
     <script>
         ! function(T, l, y) {

@@ -66,10 +66,8 @@ width: 100%;
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <link rel="stylesheet" media="all" href="/public/css/critical.css?v=2025-05-19">
 <script src="https://kit.fontawesome.com/eea5d3ae74.js" defer crossorigin="anonymous"></script>
-
-<link rel="apple-touch-icon" sizes="180x180" href="/themes/custom/mstate/favicons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/themes/custom/mstate/favicons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/themes/custom/mstate/favicons/favicon-16x16.png">
+ 
+<link rel="icon" type="image/png"   href="/public/assets/uploads/favicon-32x32.png"> 
 <link rel="manifest" href="/themes/custom/mstate/favicons/site.webmanifest">
 <link rel="shortcut icon" href="/themes/custom/mstate/favicons/favicon.ico">
 <meta name="msapplication-TileColor" content="#da532c">
