@@ -453,11 +453,12 @@ public static function mainTemplate() {
                     
                     <tr>
                     <td style='padding:16px 24px; font-size:12px; color:#6b7280;'>
-                    <p><img src='https://www.mnsus.net/public/assets/uploads/mnsu-logo.png' style='width:374px;height:auto;' /></p>
+                    <p><img src='https://www.{$_SERVER['SERVER_NAME']}/public/assets/uploads/logo.svg' style='width:374px;height:auto;' /></p>
                         <p style='margin:0;'>
-                        Cashiers Office<br>
-                        Minnesota State University, Mankato<br>
-                        128 Wigley Administration Center Mankato, MN 56001
+                        Text M State: 218.396.7282 
+Call M State: 877.450.3322 <br>
+International Calls: 218.210.8088<br>
+TTY MN Relay Service: 218.210.8088
                         </p>
 
                         <p style='margin:0;'>
