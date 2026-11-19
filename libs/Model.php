@@ -260,6 +260,7 @@ class Model extends Database {
 		$search = ['{{title}}', '{{body}}', '{{year}}', '{{sitename}}'];
 		$replace = [$title, $body, date('Y'), "<a href='#//{$_SERVER['SERVER_NAME']}'>{$this->_settings()['c_name']}</a>" ];
 		$finalBody = str_replace($search, $replace, CustomFunctions::mainTemplate());
+		
 
 		if ($admin) {
 			$this->PhpMailerConstruct($recipient, $title, $finalBody, $orignalMsgId );
