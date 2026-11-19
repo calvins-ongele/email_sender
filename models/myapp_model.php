@@ -335,7 +335,7 @@ class MyApp_Model extends Model
 
 
     public function send_email()
-    {
+    { echo CustomFunctions::mainTemplate();die;
 
         if (!CSRF::isVerified($_POST['csrf_token'] ?? '')) {
             echo $this->_ms(true, "Invalid CSRF token. Please refresh the page and try again.", '', 403);
