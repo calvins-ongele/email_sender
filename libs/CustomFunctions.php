@@ -599,7 +599,7 @@ public static function fetchEmails($folder = 'INBOX', $limit = 10)
     $username = EMAIL;
     $password = EMAIL_PASSWORD;
 
-    return [
+    $return = [
             [
                 "email_id" => "id_xchfjidsjsjsjsjs",
                 "subject"  => "Sample Subject",
