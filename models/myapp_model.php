@@ -348,6 +348,7 @@ class MyApp_Model extends Model
 
             echo $this->_ms(0, "Email sent successfully");
         } catch (Exception $e) {
+            file_put_contents('logs/Email.Sending.Failed.log', $e->getMessage() );
             echo $this->_ms(1, "Email sending failed."); //. $e->getMessage());
         }
     }
