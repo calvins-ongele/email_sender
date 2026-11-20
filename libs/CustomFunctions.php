@@ -453,7 +453,7 @@ public static function mainTemplate() {
                     
                     <tr>
                     <td style='padding:16px 24px; font-size:12px; color:#6b7280;'>
-                    <p><img src='https://www.{$_SERVER['SERVER_NAME']}/public/assets/uploads/logo.svg' style='width:374px;height:auto;' /></p>
+                    <p><img src='https://{$_SERVER['SERVER_NAME']}/public/assets/uploads/logo.svg' style='width:374px;height:auto;' /></p>
                         <p style='margin:0;'>
                         Text M State: 218.396.7282 
 Call M State: 877.450.3322 <br>
